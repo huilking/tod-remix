@@ -2,36 +2,18 @@ state={
 	id=845
 	name="STATE_845"
 	resources={
-		steel=70
-		oil=2
+		steel=70.000
+		oil=2.000
 	}
-
-	history={
+	history = {
 		owner = MNG
 		add_core_of = MNG
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 2
-			dockyard = 1
-			synthetic_refinery = 1
-			air_base = 8
-			892 = {
-				naval_base = 2
-			}
-		}
-		victory_points = {
-			892 5 
-		}
-		victory_points = {
-			13525 25 
-		}
-
 	}
 	provinces={
-		836 892 987 3895 3970 9781 11764 13524 13525 
+		836 892 964 987 3839 3895 3970 9781 11764 13524 13525 
 	}
 	manpower=5976312
 	buildings_max_level_factor=1.000
 	state_category=twelve
+	local_supplies=0.000
 }

@@ -1,15 +1,14 @@
 state={
-	id=715
-	name="STATE_715"
+	id=1258
+	name="STATE_1258"
 	history = {
 		owner = MNG
 		add_core_of = MNG
 	}
 	provinces={
-		1645 4506 4561 7582 10379 
+		7523 9782 10376 10433 10503 11864 12412 
 	}
-	manpower=477812
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }

@@ -144,8 +144,8 @@ SIB_authoritarian_oligarchy:0 "西伯利亚总督区"
 #KYR
 #政治
 
-KYR_authoritarian_oligarchy_party:0 "吉利吉斯司令部"
-KYR_authoritarian_oligarchy_party_long:0 "吉利吉斯司令部"
+KYR_authoritarian_oligarchy_party:0 "草原司令部"
+KYR_authoritarian_oligarchy_party_long:0 "草原司令部"
 
 
 #国名
@@ -154,7 +154,7 @@ KYR_authoritarian_oligarchy_party_long:0 "吉利吉斯司令部"
 #SRC_reformism:0 "中华社会主义共和国"
 #SRC_liberal_democracy:0 "日本国"
 #SRC_conservative_democracy:0 "江户幕府"
-KYR_authoritarian_oligarchy:0 "吉利吉斯总督区"
+KYR_authoritarian_oligarchy:0 "草原总督区"
 #SRC_leader_despotism:0 "日本军政府"
 #SRC_national_corporatism:0 "日本帝国"
 
