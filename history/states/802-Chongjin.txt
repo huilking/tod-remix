@@ -1,0 +1,25 @@
+state={
+	id=802
+	name="STATE_802"
+	
+	manpower=20000
+	state_category=four
+	buildings_max_level_factor=1.000
+	
+	history={
+		controller = KOR
+		owner = KOR
+		buildings = {
+			infrastructure = 1
+		} 
+		victory_points = { 
+			6822 5 
+		}
+		set_demilitarized_zone = yes	
+	}
+
+	provinces={
+		898 959 3860 6822 6944 11878 
+	}	
+
+}

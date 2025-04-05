@@ -1,0 +1,23 @@
+SIC_chuanneijushi_categories = {
+	icon = gre_faction_management
+	
+	scripted_gui = SIC_shengneijushi_ui_window
+
+	allowed = {
+		tag = SIC
+		check_variable = {SIC.minzhong < 99}
+		OR = {
+			check_variable = {SIC.minzhong > 19}
+			check_variable = {SIC.gongye > 39}
+		}
+		NOT = {has_war_with = SCG}
+	}
+	visible = {	
+		check_variable = {SIC.minzhong < 99}
+		OR = {
+			check_variable = {SIC.minzhong > 19}
+			check_variable = {SIC.gongye > 39}
+		}
+		NOT = {has_war_with = SCG}
+	}
+}

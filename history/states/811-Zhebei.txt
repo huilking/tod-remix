@@ -1,0 +1,38 @@
+state = {
+	id = 811
+	name = "STATE_811"
+	resources = {
+		steel = 24
+	}
+
+	history = {
+		owner = MNG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			industrial_complex = 3
+			air_base = 10
+			4042 = {
+				naval_base = 3
+			}
+		}
+
+		victory_points = {
+			7191 25
+		}
+		victory_points = {
+			10101 5
+		}
+
+		add_core_of = MNG
+
+	}
+
+	provinces = {
+		4042 7191 10014 10101 11991 
+	}
+	manpower = 8834570
+	buildings_max_level_factor = 1.000
+	state_category = twelve
+}

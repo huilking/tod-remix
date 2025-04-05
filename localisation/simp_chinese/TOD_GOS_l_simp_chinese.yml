@@ -1,0 +1,844 @@
+﻿l_simp_chinese:
+
+### 名字 ###
+ #国名
+  GOS_vanguard_socialism:"长江工人共和国"
+  GOS_vanguard_socialism_DEF:"长江工人共和国"
+  GOS_vanguard_socialism_ADJ:"长江工人共和国"
+
+  GOS_council_socialism:"长江工人共和国"
+  GOS_council_socialism_DEF:"长江工人共和国"
+  GOS_council_socialism_ADJ:"长江工人共和国"
+
+  GOS_moderate_socialism:"长江工人共和国"
+  GOS_moderate_socialism_DEF:"长江工人共和国"
+  GOS_moderate_socialism_ADJ:"长江工人共和国"
+
+  GOS_agroindustrial_socialism:"长江工人共和国"
+  GOS_agroindustrial_socialism_DEF:"长江工人共和国"
+  GOS_agroindustrial_socialism_ADJ:"长江工人共和国"
+
+  GOS_social_democrat:0 "七省共和国"
+  GOS_social_democrat_DEF:0 "七省共和国"
+  GOS_social_democrat_ADJ:0 "七省共和国"
+
+  GOS_liberal_democracy:0 "七省共和国"
+  GOS_liberal_democracy_DEF:0 "七省共和国"
+  GOS_liberal_democracy_ADJ:0 "七省共和国"
+
+  GOS_consociationalism:0 "七省联合"
+  GOS_consociationalism_DEF:0 "七省联合"
+  GOS_consociationalism_ADJ:0 "七省联合"
+
+  GOS_conservative_democracy:0 "七省自治政府"
+  GOS_conservative_democracy_DEF:0 "七省自治政府"
+  GOS_conservative_democracy_ADJ:0 "七省自治政府"
+
+  GOS_authoritarian_oligarchy:0 "明帝国七省军政府"
+  GOS_authoritarian_oligarchy_DEF:0 "明帝国七省军政府"
+  GOS_authoritarian_oligarchy_ADJ:0 "明帝国七省军政府"
+
+  GOS_leader_despotism:0 "明帝国七省政府"
+  GOS_leader_despotism_DEF:0 "明帝国七省政府"
+  GOS_leader_despotism_ADJ:0 "明帝国七省政府"
+
+  GOS_leader_sacred_revivalism:0 "明帝国七省政府"
+  GOS_leader_sacred_revivalism_DEF:0 "明帝国七省政府"
+  GOS_leader_sacred_revivalism_ADJ:0 "明帝国七省政府"
+
+  GOS_national_corporatism:0 "明帝国七省政府"
+  GOS_national_corporatism_DEF:0 "明帝国七省政府"
+  GOS_national_corporatism_ADJ:0 "明帝国七省政府"
+ #政党名
+  GOS_vanguard_socialism_party:0 "江淮联络部"
+  GOS_vanguard_socialism_party_long:0 "江淮联络部"
+
+  GOS_council_socialism_party:0 "太仓工人运动"
+  GOS_council_socialism_party_long:0 "太仓工人运动"
+
+  GOS_moderate_socialism_party:0 "六安农民运动"
+  GOS_moderate_socialism_party_long:0 "六安农民运动"
+
+  GOS_agroindustrial_socialism_party:0 "湖北社民工党"
+  GOS_agroindustrial_socialism_party_long:0 "湖北社民工党"
+
+  GOS_social_democrat_party:0 "大同党左派"
+  GOS_social_democrat_party_long:0 "大同党左派"
+
+  GOS_consociationalism_party:0 "管学系议会派"
+  GOS_consociationalism_party_long:0 "管学系议会派"
+
+  GOS_liberal_democracy_party:0 "大同党右派"
+  GOS_liberal_democracy_party_long:0 "大同党右派"
+
+  GOS_conservative_democracy_party:0 "管学系商盟派"
+  GOS_conservative_democracy_party_long:0 "管学系商盟派"
+
+  GOS_authoritarian_oligarchy_party:0 "大明兵部"
+  GOS_authoritarian_oligarchy_party_long:0 "大明兵部"
+
+  GOS_leader_despotism_party:0 "大明宗室"
+  GOS_leader_despotism_party_long:0 "大明宗室"
+
+  GOS_sacred_revivalism_party:0 "大明内务部"
+  GOS_sacred_revivalism_party_long:0 "大明内务部"
+
+  GOS_national_corporatism_party:0 "大明内务部"
+  GOS_national_corporatism_party_long:0 "大明内务部"
+
+### 决议组 ###
+    GOS_decision_l_0:"debug决议"
+    GOS_decision_l_1_jjms:"紧急经济模式"
+    GOS_decision_l_1_jjms_desc:"§Y当前危机度：§![?VAR_GOS_jjms_wjd]"
+    GOS_decision_l_2_tzngpx:"天子内阁派系"
+    GOS_decision_l_2_tzngpx_desc:"天子内阁派系决议组简介"
+    GOS_decision_l_3_fn:"咨议院法案"
+    GOS_decision_l_3_fn_desc:"法案决议组简介"
+    GOS_decision_l_4_jsjy:"军事决议"
+### 决议 ###
+  #debug
+    GOS_decision_sdx:"少帝线"
+    GOS_decision_srx:"管学系线"
+    GOS_decision_smx:"商盟线"
+    GOS_decision_dtdx:"大同党线"
+    GOS_decision_jzfx:"军政府线"
+  #紧急经济模式
+    GOS_decision_addwjd_20:"debug-危机度+20"
+    GOS_decision_jianwjd_20:"debug-危机度-20"
+
+    GOS_mission_jjms_jjwj:"经济危机迫近"
+    GOS_decision_jjms_wdhb:"稳定货币"
+    GOS_decision_jjms_zzrb:"政治让步"
+    GOS_decision_jjms_tzgg:"体制改革"
+    GOS_decision_jjms_zssc:"战时生产"
+
+    GOS_decision_jjms_bzyf:"保障基础用房"
+    GOS_decision_jjms_cwjs:"船坞建设"
+    GOS_decision_jjms_mgjs:"民生建设"
+    GOS_decision_jjms_jgjs:"军工建设"
+
+  #内阁派系
+    GOS_decision_add_dth_sl_20:"debug-大同会势力+20"	
+    GOS_decision_add_gxx_sl_20:"debug-管学系势力+20"
+    GOS_decision_add_jd_sl_20:"debug-军队势力+20"
+
+    GOS_decision_jian_dth_sl_20:"debug-大同会势力-20"	
+    GOS_decision_jian_gxx_sl_20:"debug-管学系势力-20"
+    GOS_decision_jian_jd_sl_20:"debug-军队势力-20"
+
+    GOS_decision_add_dth_zcd_10:"debug-大同会支持度+10%"
+    GOS_decision_add_gxx_zcd_10:"debug-管学系支持度+10%"
+    GOS_decision_add_jd_zcd_10:"debug-军队支持度+10%"
+
+    GOS_decision_jian_dth_zcd_10:"debug-大同会支持度-10%"
+    GOS_decision_jian_gxx_zcd_10:"debug-管学系支持度-10%"
+    GOS_decision_jian_jd_zcd_10:"debug-军队支持度-10%"
+
+    GOS_decision_tzngpx_jryd:"军人优待"
+    GOS_decision_tzngpx_gefl:"工人福利"
+    GOS_decision_tzngpx_qybt:"企业补贴"
+    GOS_decision_tzngpx_chjg:"撤换军官"
+    GOS_decision_tzngpx_syjc:"商业监察"
+    GOS_decision_tzngpx_yxjl:"游行禁令"
+    GOS_decision_tzngpx_jgsx:"军功授勋"
+    GOS_decision_tzngpx_jjsb:"经济松绑"
+    GOS_decision_tzngpx_mzjc:"民主决策"
+  #法案
+    GOS_decision_fn_ql:"权利法案                         ([?GOS_VAR_ngpx_fn_ql_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    #GOS_decision_fn_rq:"人权法案        (当前支持：[?GOS_VAR_ngpx_fn_rq_dqzc|G0]/最低所需支持：[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    GOS_decision_fn_rq:"人权法案                         ([?GOS_VAR_ngpx_fn_rq_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    GOS_decision_fn_jj:"经济法案                         ([?GOS_VAR_ngpx_fn_jj_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    GOS_decision_fn_jy:"教育法案                         ([?GOS_VAR_ngpx_fn_jy_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    GOS_decision_fn_cc:"财产法案                         ([?GOS_VAR_ngpx_fn_cc_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    GOS_decision_fn_df:"地方法案                         ([?GOS_VAR_ngpx_fn_df_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    GOS_decision_fn_tz:"天子法案                         ([?GOS_VAR_ngpx_fn_tz_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    GOS_decision_fn_my:"贸易法案                         ([?GOS_VAR_ngpx_fn_my_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    GOS_decision_fn_js:"军事法案                         ([?GOS_VAR_ngpx_fn_ql_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+    GOS_decision_fn_dgxf:"帝国宪法                         ([?GOS_VAR_ngpx_fn_dg_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
+
+    GOS_decision_fn_ql_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§R反对§!"
+    GOS_decision_fn_rq_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_jj_desc:"§0大同会§!对此法案的态度为§R反对§!\n§C管学系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_jy_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§R反对§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_cc_desc:"§0大同会§!对此法案的态度为§R反对§!\n§C管学系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_df_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§R反对§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_tz_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_my_desc:"§0大同会§!对此法案的态度为§Y中立§!\n§C管学系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_js_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§R反对§!"
+    GOS_decision_fn_dgxf_desc:"§0大同会§!对此法案的态度为§Y中立§!\n§C管学系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§Y中立§!"
+  #军事决议
+    GOS_decision_jsgg_1:"军事改革-第一阶段"
+    GOS_decision_jsgg_2:"军事改革-第二阶段"
+    GOS_decision_jsgg_3:"军事改革-第三阶段"
+    GOS_decision_jsjy_bf:"北伐"
+    GOS_decision_zzyj_ghj:"对共和军的作战研究"
+    GOS_decision_zzyj_xbj:"对西北军的作战研究"
+    GOS_decision_zzyj_st:"对顺天的作战研究"
+    GOS_decision_jsjy_zzgs:"注重工事"
+    GOS_decision_jsjy_ylz:"舆论战"
+    GOS_decision_jsjy_zsxc:"战时宣传"
+    GOS_decision_jsjy_jsjm:"窃取军事机密"
+    GOS_decision_jsjy_phsc:"破坏生产"
+    GOS_decision_jsjy_bsyz:"背水一战"
+
+
+### 动态修正 ###
+ #地区修正
+  GOS_dynamic_modifiers_ytf:"应天府"
+  GOS_dynamic_modifiers_hszh:"洪水之后"
+ #国家修正
+  GOS_dynamic_modifiers_jjms:"紧急经济模式"
+  GOS_dynamic_modifiers_tzqw:"天子权威"
+  GOS_dynamic_modifiers_zyyfn:"咨议院法案"
+
+  GOS_dynamic_modifiers_jnmj:"[GET_GOS_idea_jnmj_name_txt]"
+  GET_GOS_idea_jnmj_name_txt_1:"突如其来的战争"
+  GET_GOS_idea_jnmj_name_txt_2:"江南明军"
+  GET_GOS_idea_jnmj_name_txt_3:"兴师北伐"
+  GOS_dynamic_modifiers_jnmj_desc:"这一场内战几乎无征兆的爆发了，承平已久的长江七省对此完全没有任何准备，世界大战后的华东各军训练废弛，庚午钱荒严重打击了军备更新与维护，现在的七省需要紧急动员起来应对这一场内战。"
+
+### ideas ###
+  #内阁
+    GOS_qym:"钱永铭"
+    GOS_zbj:"赵秉钧"
+    GOS_gtq:"郭泰祺"
+    GOS_cgp:"陈光甫"
+    GOS_lzc:"李烛尘"
+    GOS_zrc:"章荣初"
+    GOS_lyz:"柳亚子"
+    GOS_idea_lz:"刘峙"
+    GOS_txs:"陶希圣"
+    GOS_gwj:"顾维钧"
+    GOS_zjj:"张静江"
+    GOS_zfh:"周佛海"
+    GOS_wyz:"虞洽卿"
+    GOS_hjw:"胡厥文"
+    GOS_qcz:"钱昌照"
+    GOS_hzh:"贺衷寒" 
+    GOS_dys:"杜月笙"
+    GOS_hkz:"华克之"
+    GOS_zzz:"张治中"
+  #开局民族精神
+    GOS_idea_gengwucaihuangdeyubo:0 "庚午财荒的余波"
+    GOS_idea_gengwucaihuangdeyubo_desc:0 "尽管距离庚午钱荒发生已经过去了四年，但七省地区的经济一直都处于停止状态。尽管江南建设发展公司以建设公共设施、兴建大型工程的方式大量吸纳失业人口，但庞大的政府开支也给七省财政带来了巨大的压力。"
+    GOS_idea_gengwucaihuangdeyubo_2:0 "庚午财荒的余波"
+    GOS_idea_gengwucaihuangdeyubo_2_desc:0 "尽管距离庚午钱荒发生已经过去了四年，但七省地区的经济一直都处于停止状态。尽管江南建设发展公司以建设公共设施、兴建大型工程的方式大量吸纳失业人口，但庞大的政府开支也给七省财政带来了巨大的压力。"
+
+    GOS_idea_datongdangzaixingdong:0 "人心思变"
+    GOS_idea_datongdangzaixingdong_desc:0 "管学系自1900年同大同党决裂以来，一直牢牢把控着江浙地区的话语权，在1901年武昌大同案爆发后更是成为了整个南方地区名义上的的第一大党，风头一时无两。但事实上，大同党崩溃后留下的是形形色色的小党派，各类思想都在街头巷尾传播，尤其是大同主义的阴魂久久不散。繁荣的盛世下，他们只能像老鼠一样蛰伏，但在这庚午钱荒和内战风波之下，谁都不知道会变成什么样。"
+
+    GOS_idea_shemingongdangdesaoluan:0 "社民工党的骚乱"
+    GOS_idea_shemingongdangdesaoluan_desc:0 "长江七省作为大明帝国最发达地区之一，阶级矛盾也相当严重，尤其在庚午钱荒之后，工人运动此起彼伏，社民工党的思想一直在底层传播。虽然大明政府和各地总督的竭力镇压下，社民工党的活动趋于停滞，但所有人都知道，这七省就是社民工党运动的绝佳土壤，一有机会就会卷土重来。皇陵兵变所带来的权力真空给了社民工党行动的机会，各地工人运动又开始带来零星的骚乱。"
+
+    GOS_idea_huguangliangcang:0 "湖广粮仓"
+    GOS_idea_huguangliangcang_desc:0 "湖广一直以来都是大明帝国重要的产粮地，与江淮地区更是关系密切。湖广充足的粮食产出是江淮地区经济发展的重要基石。"
+  #动态修正用假民族精神
+    GOS_idea_zyyfn_jia:"咨议院法案"	
+    GOS_idea_zyyfn_ql_jia:"咨议院法案"
+    GOS_idea_zyyfn_rq_jia:"咨议院法案"
+    GOS_idea_zyyfn_cc_jia:"咨议院法案"	
+    GOS_idea_zyyfn_df_jia:"咨议院法案"		
+    GOS_idea_zyyfn_tz_jia:"咨议院法案"	
+    GOS_idea_zyyfn_my_jia:"咨议院法案"		
+    GOS_idea_zyyfn_dgxf_jia:"咨议院法案
+
+    GOS_idea_jnmj_jia:"[GET_GOS_idea_jnmj_name_txt]"
+    GOS_idea_jnmj_jia_2:"江南明军"
+    GOS_idea_jnmj_jia_3:"兴师北伐"
+    GOS_idea_jnmj_jia_4:"[GET_GOS_idea_jnmj_name_txt]"
+    GOS_idea_jnmj_jia_5:"[GET_GOS_idea_jnmj_name_txt]"
+    GOS_idea_jnmj_jia_6:"[GET_GOS_idea_jnmj_name_txt]"
+    GOS_idea_jnmj_jia_7:"[GET_GOS_idea_jnmj_name_txt]"
+
+
+  #民族精神
+    GOS_idea_trqldzz_1:"王朝新气象"
+    GOS_idea_trqldzz_2:"王朝新气象"
+    GOS_idea_ngjsbd:"内阁局势变动"
+    GOS_idea_fyzz:"防御作战"
+    GOS_idea_phsc:"军事生产遭到破坏"
+    GOS_idea_bmj:"保密局"
+    GOS_idea_jgcyl_1:"军工产业链"
+    GOS_idea_jgcyl_2:"军工产业链"
+    GOS_idea_jgcyl_3:"军工产业链"
+
+    GOS_idea_qshj_1:"七省海军"
+    GOS_idea_qshj_2:"七省海军"
+    GOS_idea_qshj_3:"七省海军"
+    GOS_idea_qshj_4:"海上霸主"
+    GOS_idea_qshj_12:"七省海军"
+    GOS_idea_qshj_13:"七省海军"
+    GOS_idea_qshj_14:"海上霸主"
+
+    GOS_idea_qdtk:"抢夺天空"
+    GOS_idea_qskj_1:"七省空军"
+    GOS_idea_qskj_2:"七省空军"
+    GOS_idea_qskj_3:"七省空军"
+    GOS_idea_qskj_4:"天空霸主"
+    GOS_idea_qskj_5:"天空霸主"
+#其他
+  mngtext.2.b:"切换至七省"
+
+### 国策 ###
+ #政治
+  #少帝线
+    GOS_focus_0:"初到应天"
+    GOS_focus_1:"南方新朝廷"
+    GOS_focus_2:"新立宪"
+    GOS_focus_3:"天子内阁"
+    GOS_focus_4:"首辅治国"
+    GOS_focus_5:"庶民之治"
+    GOS_focus_6:"安稳民生"
+    GOS_focus_7:"民主大一统"
+    GOS_focus_8:"虚位天子"
+
+  #管学系
+    GOS_focus_86:"议会凯旋"
+    GOS_focus_87:"商盟支持"
+    GOS_focus_88:"安定民心"
+    GOS_focus_89:"稳定生产"
+    GOS_focus_90:"拉拢军队"
+    GOS_focus_91:"自由市场经济"
+    GOS_focus_92:"与工会谈判"
+    GOS_focus_93:"尊奉少帝"
+    GOS_focus_94:"生产法与劳动法"
+    GOS_focus_95:"治安条例"
+    GOS_focus_96:"巡抚议事会"
+    GOS_focus_97:"有序开放党禁"
+    GOS_focus_98:"七省壁垒"
+  #商盟
+    GOS_focus_128:"审查议员"
+    GOS_focus_129:"生意人的政治"
+    GOS_focus_130:"出售议席席位"
+    GOS_focus_131:"商盟的话语权"
+    GOS_focus_132:"收买军队"
+    GOS_focus_133:"控制地方"
+    GOS_focus_134:"分化大同党"
+    GOS_focus_135:"关闭工会"
+    GOS_focus_136:"商盟的市场"
+    GOS_focus_137:"延长工时"
+    GOS_focus_138:"企业法与投资法"
+    GOS_focus_139:"大总统"
+    GOS_focus_140:"共和国"
+  #大同党右派
+    GOS_focus_99:"大同胜利"
+    GOS_focus_100:"反对帝制"
+    GOS_focus_101:"人民权力"
+    GOS_focus_102:"农会议席"
+    GOS_focus_103:"工会议席"
+    GOS_focus_104:"限制寡头"
+    GOS_focus_105:"人权法案"
+    GOS_focus_106:"保护私人财产"
+    GOS_focus_107:"总统共和"
+    GOS_focus_108:"地方任命"
+    GOS_focus_109:"议会共和"
+    GOS_focus_110:"地方选举"
+    GOS_focus_111:"全民普选"
+    GOS_focus_112:"签署法案"
+    GOS_focus_113:"议会立法"
+    GOS_focus_114:"七省大同"
+  #军政府
+    
+    GOS_focus_115:"解散议会"
+    GOS_focus_116:"军事管制"
+    GOS_focus_117:"同寡头合作"
+    GOS_focus_118:"推行个人崇拜"
+    GOS_focus_119:"扩大总督权力"
+    GOS_focus_120:"解散公会"
+    GOS_focus_121:"组建劳动团"
+    GOS_focus_122:"乡村宣传"
+    GOS_focus_123:"弘扬传统价值观" 
+    GOS_focus_124:"国家机器"
+    GOS_focus_125:"政治迫害"
+    GOS_focus_126:"军国主义教育"
+    GOS_focus_127:"军政府独裁"
+ #工业
+  GOS_focus_13:"发挥金融手段"
+  GOS_focus_14:"经济动员"
+  GOS_focus_15:"基础建设" 
+  GOS_focus_16:"船舶制造"
+  GOS_focus_17:"海上运输"
+  GOS_focus_18:"保障战时民生"
+  GOS_focus_19:"扩大资源开采"
+  GOS_focus_20:"建设军事产业"
+  GOS_focus_21:"改良生产线"
+  GOS_focus_22:"农产品进口"
+  GOS_focus_23:"稳固农本"
+  GOS_focus_24:"拓展内需"
+  GOS_focus_25:"重现富饶之明"
+
+
+
+ #海军
+    GOS_focus_60:"帝国舰队"
+    GOS_focus_40:"保护商船"
+    GOS_focus_41:"新式海军"
+    GOS_focus_42:"海上平台"
+    GOS_focus_43:"昔日荣耀"
+    GOS_focus_44:"海上要塞"
+    GOS_focus_45:"战斗群"
+    GOS_focus_46:"海军陆战队"
+    GOS_focus_47:"大舰队"
+    GOS_focus_48:"太仓造船厂"
+    GOS_focus_49:"杭州造船厂"
+    GOS_focus_50:"海上霸主"
+
+ #空军
+    GOS_focus_51:"重视航空兵"
+    GOS_focus_52:"组建空军"
+    GOS_focus_53:"轰炸任务"
+    GOS_focus_54:"支援任务"
+    GOS_focus_55:"抢夺天空"
+    GOS_focus_56:"雷霆打击"
+    GOS_focus_57:"沙场雷霆"
+    GOS_focus_58:"空军学院"
+    GOS_focus_59:"天空霸主"
+
+ #陆军
+  #管学系
+    GOS_focus_61:"南京军事会议"
+    GOS_focus_62:"省军联合"
+    GOS_focus_63:"强化通讯体系"
+    GOS_focus_64:"定期总督会议"
+    GOS_focus_65:"省军精锐"
+    GOS_focus_66:"建设地方军校"
+    GOS_focus_67:"特种化作战"
+    GOS_focus_68:"施承志主军"
+    GOS_focus_69:"总参谋部"
+    GOS_focus_70:"新军军官团"
+    GOS_focus_71:"组建大型炮兵部队"
+    GOS_focus_72:"集中演习"
+    GOS_focus_73:"火力优势"
+    GOS_focus_74:"战场总结"
+    GOS_focus_75:"投资转向军工产业"
+    GOS_focus_76:"加大研发投入"
+    GOS_focus_77:"成立杭州研究院"
+    GOS_focus_78:"战地工兵"
+    GOS_focus_79:"步兵武器"
+    GOS_focus_80:"后勤研究"
+    GOS_focus_81:"军事机械厂"
+    GOS_focus_82:"组建军工产业链"
+    GOS_focus_83:"装甲生产"
+    GOS_focus_84:"金陵军工厂"
+    GOS_focus_85:"电子设备"
+  #大同党
+    GOS_focus_141:"七省军备"
+    GOS_focus_142:"迫在眉睫的军改"
+    GOS_focus_143:"蔡廷锴主导改革"
+    GOS_focus_144:"集中作战"
+    GOS_focus_145:"防御工事"
+    GOS_focus_146:"强化指挥体系"
+    GOS_focus_147:"强化参谋团"
+    GOS_focus_148:"重视巷战"
+    GOS_focus_149:"步坦协同"
+    GOS_focus_150:"集中军演"
+    GOS_focus_151:"朱执信主导改革"
+    GOS_focus_152:"灵活作战"
+    GOS_focus_153:"建立通讯系统"
+    GOS_focus_154:"迂回战术"
+    GOS_focus_155:"侦察战术"
+    GOS_focus_156:"装甲突破"
+    GOS_focus_157:"强化民兵"
+    GOS_focus_158:"联合军演"
+    GOS_focus_159:"军工体系"
+    GOS_focus_160:"普及军事教育"
+    GOS_focus_161:"重组各地研究院"
+    GOS_focus_162:"军校改革"
+    GOS_focus_163:"实用主义设计"
+    GOS_focus_164:"扩大化生产"
+    GOS_focus_165:"新式步枪"
+    GOS_focus_166:"火炮革新"
+    GOS_focus_167:"钢铁凶兽"
+
+  #军政府
+    GOS_focus_168:"扩充新军"
+    GOS_focus_169:"改制省军"
+    GOS_focus_170:"应天中央主导"
+    GOS_focus_171:"强化新军地位"
+    GOS_focus_172:"组建先锋突击队"
+    GOS_focus_173:"拉拢湖北军官团"
+    GOS_focus_174:"军籍制度"
+    GOS_focus_175:"新式参谋团"
+    GOS_focus_176:"总结战斗经验"
+    GOS_focus_177:"精锐作战"
+    GOS_focus_178:"建设军队企业"
+    GOS_focus_179:"总督军工厂"
+    GOS_focus_180:"合并私人军工厂"
+    GOS_focus_181:"成立军用劳动团"
+    GOS_focus_182:"强调火炮"
+    GOS_focus_183:"收买高校人才"
+    GOS_focus_184:"新建应天军事研究所"
+    GOS_focus_185:"辅助装备研究"
+    GOS_focus_186:"世界大战的极致"
+
+  #少帝
+    GOS_focus_205:"军队审查"
+    GOS_focus_206:"军校人才"
+    GOS_focus_207:"新式理论"
+    GOS_focus_208:"注重火力"
+    GOS_focus_209:"参谋部改革"
+    GOS_focus_210:"战车设计"
+    GOS_focus_211:"统一装备标准"
+    GOS_focus_212:"侦察作战"
+    GOS_focus_213:"战火南来"
+    GOS_focus_214:"战时经验"
+    GOS_focus_215:"吸纳共和军战术"
+    GOS_focus_216:"军备革新"
+    GOS_focus_217:"组织防线"
+    GOS_focus_218:"针对作战"
+    GOS_focus_219:"战时征募"
+    GOS_focus_220:"北定中原"
+    GOS_focus_221:"组建新军事工业集团"
+    GOS_focus_222:"加大装备研发投入"
+    GOS_focus_223:"加强保密机制"
+    GOS_focus_224:"核研究"
+    GOS_focus_225:"导弹研究"
+    GOS_focus_226:"旧厂房现代化改造"
+    GOS_focus_227:"扩招技术人员"
+    GOS_focus_228:"企业制度改革"
+    GOS_focus_229:"构筑防线"
+    GOS_focus_230:"战术反制"
+    GOS_focus_231:"扩大动员"
+    GOS_focus_232:"舆论攻势"
+    GOS_focus_233:"策反军官"
+    GOS_focus_234:"渗透作战"
+    GOS_focus_235:"殊死一搏"
+    GOS_focus_236:"诏令天下"
+
+
+
+### tooltip ###
+ #变量相关
+  #危机度
+    GOS_tooltip_var_jjms_wjd_add_1:"§Y危机度§!增加§R1§!"
+    GOS_tooltip_var_jjms_wjd_add_5:"§Y危机度§!增加§R5§!"
+
+    GOS_tooltip_var_jjms_wjd_jian_5:"§Y危机度§!减少§G5§!"
+    GOS_tooltip_var_jjms_wjd_jian_10:"§Y危机度§!减少§G10§!"
+
+    GOS_tooltip_var_wjd_xiaoyu_75:"§Y危机度§!小于§G75§!"
+  #内阁派系
+    GOS_tooltip_var_jd_zcd_add_5:"§L军队§!§G支持度§!增加§G5%§!"
+    GOS_tooltip_var_gxx_zcd_add_5:"§C管学系§!§G支持度§!增加§G5%§!"
+    GOS_tooltip_var_dth_zcd_add_5:"§0大同会§!§G支持度§!增加§G5%§!"
+
+
+    GOS_tooltip_var_jd_sl_jian_5:"§L军队§!§Y势力§!减少§G5§!"
+    GOS_tooltip_var_gxx_sl_jian_5:"§C管学系§!§Y势力§!减少§G5§!"
+    GOS_tooltip_var_dth_sl_jian_5:"§0大同会§!§Y势力§!减少§G5§!"
+
+
+    GOS_tooltip_var_jd_sl_add_5:"§L军队§!§Y势力§!增加§R5§!"
+    GOS_tooltip_var_gxx_sl_add_5:"§C管学系§!§Y势力§!增加§R5§!"
+    GOS_tooltip_var_dth_sl_add_5:"§0大同会§!§Y势力§!增加§R5§!"
+
+    GOS_tooltip_var_tzqw_dayu_75:"§Y天子权威§!大于§G75%§!"
+    GOS_tooltip_var_tzqw_dayu_90:"§Y天子权威§!大于§G90%§!"
+
+    GOS_tooltip_var_fn_dayu_zc:"议会同意此法案通过"
+
+    GOS_tooltip_decision_fn_rq:"§0大同会§!§Y势力§!每周增加§R0.5§!" 
+    GOS_tooltip_decision_fn_jj:"§0大同会§!不会再因为§Y战时经济§!与§Y总动员§!而减少§G支持度§!" 
+    GOS_tooltip_decision_fn_cc:"§C管学系§!不会再因为§Y经济危机度§!而减少§G支持度§!\n§C管学系§!§Y势力§!每周增加§R0.5§!"
+    GOS_tooltip_decision_fn_js:"§L军队§!不会再每周固定减少§R0.5§!§G支持度§!"
+
+ #国策提示
+    GOS_tooltip_foc_14:"启用§Y紧急经济模式§!决议组"
+    GOS_tooltip_foc_bzyf:"在§Y决议地图§!上启用§Y保障住房§!决议" 
+    GOS_tooltip_foc_cwjs:"在§Y决议地图§!上启用§Y船坞建设§!决议"
+    GOS_tooltip_foc_mgjs:"在§Y决议地图§!上启用§Y民生建设§!决议"
+    GOS_tooltip_foc_jgjs:"在§Y决议地图§!上启用§Y军工建设§!决议"
+
+    GOS_tooltip_foc_zykc:"在§Y紧急经济模式§!决议组中启用§Y资源开采§!决议"
+
+    GOS_tooltip_foc_21:"§Y紧急经济模式§!中§Y建设决议§!的消耗时间从§Y90§!天§G减为§!§Y60§!天"
+    GOS_tooltip_foc_22:"§Y紧急经济模式§!中受危机度影响的§Y稳定度系数§!减为§G0.4§!"
+    GOS_tooltip_foc_23:"§Y紧急经济模式§!中受危机度影响的§Y稳定度系数§!减为§G0.2§!"
+    GOS_tooltip_foc_24:"§Y紧急经济模式§!中受危机度影响的§Y生活消费品系数§!减为§G0.5§!"
+    GOS_tooltip_foc_25:"§Y紧急经济模式§!中§Y建设决议§!的消耗时间从§Y60§!天§R增为§!§Y100§!天"
+
+    GOS_tooltip_foc_0:"启用§Y天子内阁派系§!决议组"
+    GOS_tooltip_foc_2:"启用§Y咨议院法案§!决议组"
+
+    GOS_tooltip_idea_name_jnmj:"§Y突如其来的战争§!更名为§Y江南明军§!"
+    GOS_tooltip_idea_name_xsbf:"§Y江南明军§!更名为§Y兴师北伐§!"
+
+    GOS_tooltip_foc_214:"启用§Y军事决议§!决议组"
+    GOS_tooltip_foc_218:"在§Y军事决议§!决议组中启用§Y对共和军的作战研究§!决议"
+    GOS_tooltip_foc_230:"在§Y军事决议§!决议组中启用§Y对西北军的作战研究§!和§Y对顺天的作战研究§!决议"
+    GOS_tooltip_foc_220:"在§Y军事决议§!决议组中启用§Y北伐§!决议"
+    GOS_tooltip_foc_229:"在§Y军事决议§!决议组中启用§Y注重工事§!决议"
+    GOS_tooltip_foc_232:"在§Y军事决议§!决议组中启用§Y舆论战§!和§Y战时宣传§!决议决议"
+    GOS_tooltip_foc_233:"在§Y军事决议§!决议组中启用§Y窃取军事机密§!决议"
+    GOS_tooltip_foc_234:"在§Y军事决议§!决议组中启用§Y破坏生产§!决议"
+    GOS_tooltip_foc_235:"在§Y军事决议§!决议组中启用§Y背水一战§!决议"
+
+    GOS_tooltip_foc_229_2:"§C如果§!我们§R控制§!§Y信阳§!地区："
+    GOS_tooltip_foc_221:"我们的所有§Y军工组织§!和§Y工业企业§!将§Y变更名称§!\n\n为§Y所有§!§C坦克§!和§C军需品装备§!§Y军工组织§!解锁§Y特质§!§C组建新军事工业集团§!"
+
+
+ #民族精神修正注释
+    GOS_tooltip_idea_ngjsbd:"[GET_GOS_ngjsbd_js_name_txt]\n\n[GET_GOS_ngjsbd_zzzt_name_txt]\n\n[GET_GOS_ngjsbd_jj_name_txt]\n\n[GET_GOS_ngjsbd_cc_name_txt]\n\n[GET_GOS_ngjsbd_rq_name_txt]"
+
+### flag ###
+
+### 特质 ###
+  #领导人特质
+    GOS_traits_qlws:"群龙无首"
+    GOS_traits_jgzn:"惊弓之鸟"
+    GOS_traits_sd:"少帝"
+    GOS_traits_ng:"内阁"
+    GOS_traits_yj:"原君"
+  #内阁特质
+    GOS_traits_bmll:"八面玲珑的政客"
+    GOS_traits_nfdcf:"南方大财阀"
+    GOS_traits_gt:"寡头"
+    GOS_traits_jbqyj:"进步企业家"
+    GOS_traits_srxyz:"管学系议长"
+    GOS_traits_nhzzz:"农会组织者"
+    GOS_traits_dtdpt:"大同党的叛徒"
+    GOS_traits_cf:"财阀"
+    GOS_traits_ytfy:"管学系话事人"
+    GOS_traits_dtdhsr:"大同党话事人"
+    GOS_traits_jjbs:"经济博士"
+    GOS_traits_jzfdyr:"军政府代言人"
+    GOS_traits_ylzzj:"舆论战专家"
+    GOS_traits_cps:"世界大战的操盘手"
+    GOS_traits_fdxgz:"反地下工作专家"
+    GOS_traits_hb:"黑帮"
+    GOS_traits_tshw:"少帝的贴身护卫"
+    GOS_traits_dtdmy:"大同党的盟友"
+  #总司令特质
+    GOS_traits_dpbzy:"阵地战专精"
+    GOS_traits_zjzzcdz:"注重后勤"
+### 人物 ###
+ #领导人
+  GOS_characters_wwkx:"王位空悬"
+  GOS_characters_zxz:"朱喜钲" 
+  GOS_characters_yk:"尹宽" 
+  GOS_characters_wsh:"汪寿华" 
+  GOS_characters_zzd:"张震东" 
+  GOS_characters_xbh:"许白昊" 
+  GOS_characters_lyz:"柳亚子" 
+  GOS_characters_hjw:"胡厥文" 
+  GOS_characters_qym:"钱永铭" 
+  GOS_characters_scz:"施承志" 
+  GOS_characters_zyx:"朱煜勋" 
+  GOS_characters_zbj:"赵秉钧" 
+ #将领
+  GOS_ctk:"蔡廷锴"
+  GOS_scz:"施承志"
+  GOS_lz:"刘峙"
+  GOS_lg:"刘公"
+  GOS_hj:"何键"
+  GOS_jyw:"蒋翊武"
+  GOS_zzx:"朱执信"
+  GOS_cyb:"曹亚伯"
+  GOS_gzt:"顾祝同"
+  GOS_llj:"李烈钧"
+  GOS_ltw:"蓝天蔚"
+  GOS_xyn:"萧耀南"
+  GOS_jjg:"蒋经国"
+  GOS_sxl:"宋希濂"
+  GOS_qdj:"钱大钧"
+  GOS_zzw:"张振武"
+  GOS_zzz:"张治中"
+  GOS_lky:"刘揆一"
+  GOS_lk:"刘戡"
+  GOS_xsl:"萧山令"
+  GOS_qqq:"邱清泉"
+  GOS_xkx:"许克祥"
+  GOS_slr:"孙立人"
+  GOS_cqm:"陈其美"
+  GOS_cgs:"蔡公时"
+  GOS_xsh:"熊式辉"
+  GOS_hcj:"何成浚"
+  GOS_xyq:"徐源泉"
+  GOS_lyx:"廖耀湘"
+  GOS_dal:"戴安澜"
+  GOS_hkz:"霍揆彰"
+  GOS_zxb:"曾宪邦"
+  GOS_qqw:"秦庆武"
+  GOS_xzl:"肖作霖"
+  GOS_yjs:"俞济时"
+  GOS_hw:"黄维"
+ #部长/总司令
+  GOS_wml:"吴毓麟"
+  GOS_oyg:"欧阳格"
+  GOS_txm:"汤芗铭"
+  GOS_sch:"沈崇诲"
+  GOS_cxc:"陈锡纯"
+  GOS_chm:"陈怀民"
+  GOS_wrl:"吴纫礼"
+  GOS_gyq:"桂永清"
+  GOS_xhs:"徐焕升"
+  GOS_zzr:"周至柔"
+  GOS_wlz:"吴禄贞"
+  GOS_qxs:"钱学森"
+  GOS_zgy:"朱光亚"
+
+### GUI ###
+ #天子内阁派系
+  GOS_gui_tzngpx_dth_name_text:"大同会"
+  GOS_gui_tzngpx_gxx_name_text:"管学系"
+  GOS_gui_tzngpx_jd_name_text:"军队"
+
+  GOS_gui_tzngpx_dth_tooltip_text:"大同会简介"
+  GOS_gui_tzngpx_gxx_tooltip_text:"管学系简介"
+  GOS_gui_tzngpx_jd_tooltip_text:"军队简介"
+
+  GOS_gui_tzngpx_sl_header_text:"势力"
+  GOS_gui_tzngpx_dth_sl_status_text:"[?VAR_GOS_dth_sl|0]"  
+  GOS_gui_tzngpx_gxx_sl_status_text:"[?VAR_GOS_gxx_sl|0]"
+  GOS_gui_tzngpx_jd_sl_status_text:"[?VAR_GOS_jd_sl|0]"
+  GOS_gui_tzngpx_sl_tooltip_text:"势力影响哪方面的简介"
+
+  GOS_gui_tzngpx_zcd_header_text:"支持度"
+  GOS_gui_tzngpx_dth_zcd_status_text:"[?VAR_GOS_dth_zcd|%0]"
+  GOS_gui_tzngpx_gxx_zcd_status_text:"[?VAR_GOS_gxx_zcd|%0]"
+  GOS_gui_tzngpx_jd_zcd_status_text:"[?VAR_GOS_jd_zcd|%0]"
+  GOS_gui_tzngpx_zcd_tooltip_text:"支持度影响哪方面的简介"
+
+  GOS_gui_tzngpx_tzqw_text:"§Y天子权威：§![?GOS_VAR_tzqw|%0]"
+
+### 本地化预设 ###
+    GET_GOS_ngjsbd_js_name_txt_1:"未通过§Y军事法案§!：§L军队§!§G支持度§!每周减少§R0.5%§!"
+    GET_GOS_ngjsbd_js_name_txt_2:""
+
+    GET_GOS_ngjsbd_zzzt_name_txt_1:"处于战争状态：§L军队§!§Y势力§!每周增加§R1.5§!"
+    GET_GOS_ngjsbd_zzzt_name_txt_2:""
+
+    GET_GOS_ngjsbd_jj_name_txt_1:"处于§Y战时经济§!或§Y总动员§!状态：§0大同会§!§G支持度§!每周减少§R0.3%§!"
+    GET_GOS_ngjsbd_jj_name_txt_2:""
+
+    GET_GOS_ngjsbd_cc_name_txt_1:"§Y经济危机度§!大于§R50§!：§C管学系§!§G支持度§!每周减少§R0.3%§!"
+    GET_GOS_ngjsbd_cc_name_txt_2:""
+    GET_GOS_ngjsbd_cc_name_txt_3:"已通过§Y财产法案§!：§C管学系§!§Y势力§!每周增加§R0.5§!"
+
+    GET_GOS_ngjsbd_rq_name_txt_1:""
+    GET_GOS_ngjsbd_rq_name_txt_2:"已通过§Y人权法案§!：§0大同会§!§Y势力§!每周增加§R0.5§!"
+
+### 决议消耗图标及注释 ###
+  #xp
+    GOS_cost_xp_army_30:"£army_experience §Y30§!"
+    GOS_cost_xp_army_30_blocked:"£army_experience §R30§!"
+    GOS_cost_xp_army_30_tooltip:"执行此决议需要£army_experience §Y30§!"
+
+    GOS_cost_xp_army_25:"£army_experience §Y25§!"
+    GOS_cost_xp_army_25_blocked:"£army_experience §R25§!"
+    GOS_cost_xp_army_25_tooltip:"执行此决议需要£army_experience §Y25§!"
+
+    GOS_cost_xp_army_100:"£army_experience §Y100§!"
+    GOS_cost_xp_army_100_blocked:"£army_experience §R100§!"
+    GOS_cost_xp_army_100_tooltip:"执行此决议需要£army_experience §Y100§!"
+
+    GOS_cost_xp_navy_50:"£navy_experience §Y50§!"
+    GOS_cost_xp_navy_50_blocked:"£navy_experience §R50§!"
+    GOS_cost_xp_navy_50_tooltip:"执行此决议需要£navy_experience §Y50§!"
+
+    GOS_cost_xp_navy_50:"£navy_experience §Y50§!"
+    GOS_cost_xp_navy_50_blocked:"£navy_experience §R50§!"
+    GOS_cost_xp_navy_50_tooltip:"执行此决议需要£navy_experience §Y50§!"
+  #cp
+    GOS_cost_CP_20:0 "£command_power §Y20§!"
+    GOS_cost_CP_20_blocked:0 "£command_power §R20§!"
+    GOS_cost_CP_20_tooltip:0 "执行此决议需要£command_power §Y20§!"
+
+    GOS_cost_CP_50:0 "£command_power §Y50§!"
+    GOS_cost_CP_50_blocked:0 "£command_power §R50§!"
+    GOS_cost_CP_50_tooltip:0 "执行此决议需要£command_power §Y50§!"
+
+    GOS_cost_CP_10_pp_50:"£command_power  §Y10§! £pol_power  §Y50§!"
+    GOS_cost_CP_10_pp_50_blocked:"£command_power  §R10§! £pol_power  §R50§!"
+    GOS_cost_CP_10_pp_50_tooltip:"执行此决议需要£command_power §Y10§!£pol_power §Y50§!"
+
+    GOS_cost_CP_10_pp_25:"£command_power  §Y10§! £pol_power  §Y25§!"
+    GOS_cost_CP_10_pp_25_blocked:"£command_power  §R10§! £pol_power  §R25§!"
+    GOS_cost_CP_10_pp_25_tooltip:"执行此决议需要£command_power §Y10§!£pol_power §Y25§!"
+
+### 制造商 ###
+GOS_mio_trait_zjgyjt:"组建新军事工业集团"
+
+GOS_zzs_lstm:"[GET_GOS_zzs_lstm_name_txt]"
+GOS_zzs_slsy:"[GET_GOS_zzs_slsy_name_txt]"
+GOS_zzs_ytzy:"[GET_GOS_zzs_ytzy_name_txt]"
+GOS_zzs_hjys:"[GET_GOS_zzs_hjys_name_txt]"
+GOS_zzs_dgyz:"[GET_GOS_zzs_dgyz_name_txt]"
+
+GOS_organization_tank_qtgcjt:"[GET_GOS_organization_tank_qtgcjt_name_txt]"
+GOS_organization_tank_wyjt:"[GET_GOS_organization_tank_wyjt_name_txt]"
+
+GOS_organization_ship_qtyy:"[GET_GOS_organization_ship_qtyy_name_txt]"
+GOS_organization_ship_gljn:"[GET_GOS_organization_ship_gljn_name_txt]"
+GOS_organization_ship_ntjt:"[GET_GOS_organization_ship_ntjt_name_txt]"
+
+GOS_organization_plane_yrlh:"[GET_GOS_organization_plane_yrlh_name_txt]"
+GOS_organization_plane_sljs:"[GET_GOS_organization_plane_sljs_name_txt]"
+GOS_organization_plane_gljr:"[GET_GOS_organization_plane_gljr_name_txt]"
+
+GOS_organization_infantry_cjbq:"[GET_GOS_organization_infantry_cjbq_name_txt]"
+GOS_organization_infantry_hbgd:"[GET_GOS_organization_infantry_hbgd_name_txt]"
+GOS_organization_infantry_hhmy:"[GET_GOS_organization_infantry_hhmy_name_txt]"
+
+GET_GOS_zzs_lstm_name_txt_1:"灵山土木工程建筑集团"
+GET_GOS_zzs_slsy_name_txt_1:"私立岳麓书院"
+GET_GOS_zzs_ytzy_name_txt_1:"国立应天中央大学堂"
+GET_GOS_zzs_hjys_name_txt_1:"汉江有色金属制备集团"
+GET_GOS_zzs_dgyz_name_txt_1:"帝国扬子电气化开发局"
+
+GET_GOS_organization_tank_qtgcjt_name_txt_1:"钱塘工程机械集团"
+GET_GOS_organization_tank_wyjt_name_txt_1:"五一集团会社"
+
+GET_GOS_organization_ship_qtyy_name_txt_1:"钱塘远洋船舶集团"
+GET_GOS_organization_ship_gljn_name_txt_1:"国立江南水师修造厂"
+GET_GOS_organization_ship_ntjt_name_txt_1:"南通舰艇公司"
+
+GET_GOS_organization_plane_yrlh_name_txt_1:"御日联合航空集团"
+GET_GOS_organization_plane_sljs_name_txt_1:"升力先进技术研究所"
+GET_GOS_organization_plane_gljr_name_txt_1:"国立九如飞行设计院"
+
+GET_GOS_organization_infantry_cjbq_name_txt_1:"长江兵器制作所" 
+GET_GOS_organization_infantry_hbgd_name_txt_1:"虎贲高等火炮铸造所"
+GET_GOS_organization_infantry_hhmy_name_txt_1:"黄鹤民用机车会社"
+
+GET_GOS_zzs_lstm_name_txt_2:"大明建设公司" 
+GET_GOS_zzs_slsy_name_txt_2:"岳麓书院教育集团"
+GET_GOS_zzs_ytzy_name_txt_2:"应天大学"
+GET_GOS_zzs_hjys_name_txt_2:"大明金属冶炼集团"
+GET_GOS_zzs_dgyz_name_txt_2:"国家电气局"
+
+GET_GOS_organization_tank_qtgcjt_name_txt_2:"南方工业集团"
+GET_GOS_organization_tank_wyjt_name_txt_2:"南方装备集团"
+
+GET_GOS_organization_ship_qtyy_name_txt_2:"大明远洋船舶工业集团"
+GET_GOS_organization_ship_gljn_name_txt_2:"大明船舶重型工业集团"
+GET_GOS_organization_ship_ntjt_name_txt_2:"国家舰艇公司"
+
+GET_GOS_organization_plane_yrlh_name_txt_2:"国家航空工业集团"
+GET_GOS_organization_plane_sljs_name_txt_2:"飞行动力技术研究所"
+GET_GOS_organization_plane_gljr_name_txt_2:"国家飞机设计局"
+
+GET_GOS_organization_infantry_cjbq_name_txt_2:"国家兵器集团"
+GET_GOS_organization_infantry_hbgd_name_txt_2:"国家火炮工业集团"
+GET_GOS_organization_infantry_hhmy_name_txt_2:"黄鹤汽车公司"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###日常事件（历史遗留内容）
+  gosrichang.1.t:0 "新学期"
+  gosrichang.1.d:0 "眼见着日历一页一页被撕下，湖南株洲国立第一中学的新学期开学日终于到了。来自湘潭农村的中一学生章宇喘着粗气告别了刚结识的同伴，将三大包生活物资扛上宿舍门前的台阶。但当他得知自己的宿舍位于六楼尽头时，章宇一双布满老茧的手还是微微颤抖起来。九月的湖南天气依旧酷热难耐，大把大把的汗水从章宇的头上肩上淌下，很快将身上那件充满补丁的短衫浸湿。章宇抖动瘦削的臂膀，把从肩头滑落的包裹重新挑起，往前走了几步，但腿脚逐渐有些不听使唤——他绊到了一块台阶，然后失去平衡，重重地撞在宿舍大门的门框上。章宇忍痛抬头望去，包裹里的东西已散落一地，几个衣着光鲜的学生哄笑着从他的被褥上踩过。\n“前面的同学，请站住一下。”一句充满湘潭口音的话从宿舍外面传来，“请你们帮这位同学收拾一下东西，再给他道歉。”\n章宇从摔倒的眩晕中缓过劲来，拖动擦伤的肢体蜷缩到墙角。方才还在哄笑的几个学生回头瞥了一眼门外，喊着“校长来啦”“快跑”一哄而散。章宇心里一沉，又想起父母“莫与城里人起矛盾”的叮嘱，只好噙着泪爬去收拾残局。\n“同学，你伤到那里莫有啊？叫甚么名字？”那个被同学叫做校长的男人跨过宿舍的门槛，轻轻拍了拍章宇湿透的右肩。“若是伤到了，千万要跟我说啊。”\n章宇回头，埋头盯着校长下颌左侧的肉痣发愣，不敢发话。“莫要害怕，我又不是食人魔，怕甚莫？”眼前这个中年人眯起眼睛，伸出双手将章宇扶起，微笑着把章宇肩头沾上的墙灰掸掉，“站得起来哇？去阴凉地歇息下，我来帮你收拾一下。”\n章宇呆站在原地，看着那个宽阔的背影俯下身去蹲下，掏出手帕将被踩过的衣物拿起擦净，再把洒落的碗盆放回原位，最后给三个包裹打上结。“你看哇，这样打结更牢靠、又好解开，搬上去也省事哟。”\n“你是乡下来的新同学哇，莫要怕生，我们这里莫有城里乡下之分。有甚么生活学习的问题，尽管给我们说，一定尽力帮助。你就先在这里歇息吧，我帮你搬上去，同学你住哪一间呢？”"
+  gosrichang.1.a:0 "“我叫章宇，住在五三零室——万谢校长！”"

@@ -1,0 +1,33 @@
+
+state = {
+	id = 876
+	name = "STATE_876"
+
+	history = {
+		owner = LAF
+		add_core_of = LAF
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12280 3
+		}
+		victory_points = {
+			10138 3
+		}
+		victory_points = {
+			5176 1
+		}
+
+	}
+	resources = {
+		rubber = 21
+	}
+	provinces = {
+		5176 8221 10138 12110 12280 12955 13655 13656 
+	}
+	manpower = 459652
+	buildings_max_level_factor = 1.000
+	state_category = two
+	local_supplies = 0.000
+}

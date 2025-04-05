@@ -1,0 +1,23 @@
+state={
+	id=1123
+	name="STATE_1123"
+
+	history={
+		owner = MNG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MNG
+		victory_points = {
+			13533 3 
+		}
+
+	}
+	provinces={
+		1787 4655 10575 12539 13533 13534 
+	}
+	manpower=873533
+	buildings_max_level_factor=1.000
+	state_category=town
+}

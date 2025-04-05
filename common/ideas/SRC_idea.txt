@@ -1,0 +1,141 @@
+### SRC ideas ###
+ideas = {
+	country = {
+	    SRC_qiyireqing = {
+		    picture = SRC_qiyireqing
+			modifier = {
+				conscription_factor = 0.1
+				no_supply_grace = 120
+			}
+		}
+	    SRC_gemingchiweidui = {
+		    picture = SRC_gemingchiweidui
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				army_org_factor = -0.2
+				army_morale_factor = 0.05
+				dig_in_speed_factor = 0.4
+				max_dig_in_factor = 0.2
+			}
+		}
+	    SRC_gemingjunshiweiyuanhui_1 = {
+		    picture = SRC_gemingjunshiweiyuanhui_1
+			modifier = {
+				war_support_factor = 0.05
+				planning_speed = -0.2
+				max_planning = -0.2
+				max_command_power = -15
+				experience_gain_army = -0.03
+				experience_gain_air = -0.03
+				experience_gain_navy = -0.03
+			}
+		}
+	    SRC_gongrenhuchangreqing = {
+		    picture = SRC_gongrenhuchangreqing
+			modifier = {
+				industry_repair_factor = 0.1
+				consumer_goods_factor = -0.1
+			}
+		}
+		SRC_tongchanguojideyuanzhu = {
+			picture = SRC_tongchanguojideyuanzhu
+			modifier = {
+				
+			}
+		}
+		SRC_tongchanguojijunshiguwentuan = {
+			picture = SRC_tongchanguojijunshiguwentuan
+			modifier = {
+				
+			}
+		}
+		SRC_zhonghuagongnonghongjun = {
+			picture = SRC_zhonghuagongnonghongjun
+			modifier = {
+				
+			}
+		}
+		SRC_buwangkulaojichou = {
+			picture = SRC_buwangkulaojichou
+			modifier = {
+				war_support_factor = 0.1
+				army_speed_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = GPS
+				attack_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = GPS
+				defense_bonus_against = 0.2
+			}
+		}
+
+		SRC_yiwu = {
+			picture = SRC_yiwu
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.1
+			}
+		}
+		SRC_wuchanjiejiminzhu = {
+			picture = SRC_wuchanjiejiminzhu
+			modifier = { MODIFIER_COMPLIANCE_GROWTH = 0.01 }
+		}
+		SRC_wuchanjiejiwenhua = {
+			picture = SRC_wuchanjiejiwenhua
+			modifier = {
+				MODIFIER_COMPLIANCE_GAIN_ADD = 0.01
+				stability_factor = 0.1
+			}
+		}
+		SRC_zhaoyaodongfang = {
+			picture = SRC_zhaoyaodongfang
+			modifier = {
+				MODIFIER_COMPLIANCE_GROWTH = 0.01
+				stability_factor = 0.1
+				army_attack_factor = 0.075
+			}
+		}
+		SRC_xueshuminzhu = {
+			picture = SRC_xueshuminzhu
+			modifier = {research_speed_factor = 0.05}
+		}
+		SRC_xinwenhua = {
+			picture = SRC_xinwenhua
+			modifier = {
+				research_speed_factor = 0.05
+				political_power_gain = 0.1
+			}
+		}
+		SRC_gemingzhengfu = {
+			picture = SRC_gemingzhengfu
+			modifier = { MODIFIER_STABILITY_WAR_FACTOR = -0.5 }
+		}
+		SRC_chiqizhiyin = {
+			picture = SRC_chiqizhiyin
+			modifier = { 
+				MODIFIER_STABILITY_WAR_FACTOR = -0.5
+				MODIFIER_COMPLIANCE_GROWTH = 0.25
+				industrial_concern_cost_factor = -0.5
+				war_support_factor = 0.1
+				consumer_goods_factor = -0.1
+			 }
+		}
+		SRC_zhumen = {
+			picture = SRC_zhumen
+			modifier = { 
+				industry_repair_factor = 0.1
+				consumer_goods_factor = -0.2
+				production_factory_max_efficiency_factor = 0.1
+				MODIFIER_CONVERSION_COST_CIV_TO_MIL_FACTOR = -0.2
+				local_building_slots_factor = 0.1
+				research_speed_factor = 0.05
+			 }
+		}
+	}
+}
+

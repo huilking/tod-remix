@@ -1,0 +1,28 @@
+
+state = {
+	id = 1187
+	name = "STATE_1187"
+
+	history = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+		}
+		owner = LAF
+		add_core_of = LAF
+		victory_points = {
+			10263 20
+		}
+
+	}
+
+	provinces = {
+		10263 
+	}
+	manpower = 302730
+	buildings_max_level_factor = 2.000
+	state_category = large_town
+	local_supplies = 0.000
+}

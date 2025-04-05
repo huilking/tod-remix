@@ -1,0 +1,33 @@
+capital = 327
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = authoritarian_oligarchy
+	last_election = "1934.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	national_corporatism = 1
+	despotism = 4
+	authoritarian_oligarchy = 5
+	conservative_democracy = 25
+	liberal_democracy = 30
+	reformism = 25
+	socialism = 8
+	radicalism = 2
+}
+
+create_country_leader = {
+	name = "Zheng Yongqing"
+	desc = "POLITICS_ZHENG_YONGQING_DESC"
+	picture = "Portrait_LPC_Zheng_Yongqing.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_oligarchy_subtype
+}
+
+add_ideas = {
+	AthCfc_type
+}

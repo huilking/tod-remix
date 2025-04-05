@@ -1,0 +1,31 @@
+
+state={
+	id=874
+	name="STATE_874"
+	resources={
+		aluminium=5.000
+		rubber=5.000
+	}
+	history={
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		owner = LAF
+		add_core_of = LAF
+		victory_points = {
+			4364 10
+		}
+		victory_points = {
+			12212 3
+		}
+	}
+
+	provinces={
+		1332 1373 4364 10294 12212 12415 
+	}
+	manpower=590251
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

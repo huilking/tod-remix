@@ -1,0 +1,39 @@
+state = {
+	id = 531
+	name = "STATE_531"
+	manpower = 8195676
+	state_category = eleven
+	local_supplies = 9.0
+
+	resources = {
+		steel = 24
+		aluminium = 12
+	}
+
+	history = {
+		owner = EDO
+		add_core_of = EDO
+
+		add_to_array = { state_victory_points = 11960 }
+		victory_points = { 11960 30 } #Kyoto
+
+		add_to_array = { state_victory_points = 7072 }
+		victory_points = { 7072 50 } #Osaka
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 2
+			synthetic_refinery = 1
+
+			air_base = 5
+
+			7072 = { naval_base = 3 }
+		}
+	}
+
+	provinces = {
+		1051 1133 7113 7072 11960 4054 4142
+	}
+}

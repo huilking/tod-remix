@@ -1,0 +1,206 @@
+#少数民族纷争-完全控制
+HUN_shaoshuminzufenzheng_wanquankongzhi = {
+	enable = { always = yes }
+	icon = GFX_modifiers_tur_traditionalist_sedition
+	recruitable_population_factor = 0.0
+	recruitable_population_factor = 0.0
+	local_building_slots_factor = 0.0
+	state_resources_factor = 0.0
+	state_production_speed_buildings_factor = 0.0
+	local_org_regain = 0.0
+}
+#少数民族纷争-轻微骚乱
+HUN_shaoshuminzufenzheng_qingweisaoluan = {
+	enable = { always = yes }
+	icon = GFX_modifiers_tur_traditionalist_sedition
+	recruitable_population_factor = -0.1
+	recruitable_population_factor = -0.1
+	local_building_slots_factor = -0.1
+	state_resources_factor = -0.1
+	state_production_speed_buildings_factor = -0.1
+	local_org_regain = -0.1
+}
+#民族纷争-基本可控
+HUN_shaoshuminzufenzheng_jibenkekong = {
+	enable = { always = yes }
+	icon = -0.2
+	recruitable_population_factor = -0.2
+	recruitable_population_factor = -0.2
+	local_building_slots_factor = -0.2
+	state_resources_factor = -0.2
+	state_production_speed_buildings_factor = -0.2
+	local_org_regain = -0.2
+}
+#民族纷争-勉强可控
+HUN_shaoshuminzufenzheng_mianqiangkekong = {
+	enable = { always = yes }
+	icon = GFX_modifiers_tur_traditionalist_sedition
+	recruitable_population_factor = -0.3
+	recruitable_population_factor = -0.3
+	local_building_slots_factor = -0.3
+	state_resources_factor = -0.3
+	state_production_speed_buildings_factor = -0.3
+	local_org_regain = -0.3
+}
+#民族纷争-严重失控
+HUN_shaoshuminzufenzheng_yanzhongshikong = {
+	enable = { always = yes }
+	icon = GFX_modifiers_tur_traditionalist_sedition
+	recruitable_population_factor = -0.4
+	recruitable_population_factor = -0.4
+	local_building_slots_factor = -0.4
+	state_resources_factor = -0.4
+	state_production_speed_buildings_factor = -0.4
+	local_org_regain = -0.4
+}
+#民族纷争-无法无天
+HUN_shaoshuminzufenzheng_wufawutian = {
+	enable = { always = yes }
+	icon = GFX_modifiers_tur_traditionalist_sedition
+	recruitable_population_factor = -0.5
+	recruitable_population_factor = -0.5
+	local_building_slots_factor = -0.5
+	state_resources_factor = -0.5
+	state_production_speed_buildings_factor = -0.5
+	local_org_regain = -0.5
+}
+#业余的农民军
+UKR_yeyudenongminjun = {
+	enable = { always = yes }
+	icon = GFX_modifiers_tur_traditionalist_sedition
+	army_org_factor = UKR_zuzhidu
+	army_morale_factor = UKR_huifudu
+	planning_speed = UKR_jihuasudu
+	max_planning = UKR_jihuashangxian
+	max_command_power = UKR_zhihuidianshu
+	consumer_goods_factor = UKR_junshangzengjia
+	experience_gain_army_factor = UKR_lujunjinyan
+	experience_loss_factor = UKR_shibingsunshi
+	max_dig_in_factor = UKR_qianhao
+}
+#改革初成的军队
+UKR_gaigechuchengdejundui = {
+	enable = { always = yes }
+	icon = GFX_modifiers_tur_traditionalist_sedition
+	army_org_factor = UKR_zuzhidu
+	army_morale_factor = UKR_huifudu
+	planning_speed = UKR_jihuasudu
+	max_planning = UKR_jihuashangxian
+	max_command_power = UKR_zhihuidianshu
+	experience_gain_army_factor = UKR_lujunjinyan
+	experience_loss_factor = UKR_shibingsunshi
+	max_dig_in_factor = UKR_qianhao
+	dig_in_speed_factor = UKR_qianhaosudu
+	army_speed_factor = UKR_lujunsudu
+}
+
+#混乱的殖民地
+SPR_hunluanzhimingdi = {
+	enable = { always = yes }
+	icon = GFX_modifiers_generic_military_industry
+	recruitable_population_factor = -1
+	local_factories = -1
+	local_building_slots_factor = -1
+	state_resources_factor = -1
+}
+
+#经济危机
+FRA_jingjiweiji = {
+	enable = { always = yes }
+	icon = GFX_modifiers_FRA_jingjiweiji
+	political_power_factor = FRA_tongzhangdu3
+	industrial_capacity_factory = FRA_tongzhangdu1
+	local_resources_factor = FRA_tongzhangdu1
+	army_attack_factor = FRA_tongzhangdu2
+	}
+
+asian_heart = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_pan_turkic_propaganda
+	
+	local_manpower = 0.1
+	monthly_population = 0.1
+	local_factories = 0.1
+	global_building_slots_factor = 0.25
+}
+
+
+Fuyu_rare_earth_group = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_pan_turkic_propaganda
+	
+	local_manpower = -0.2
+	local_resources = 0.25
+}
+
+
+Gansu_mining_and_mining_group = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_pan_turkic_propaganda
+	
+	local_manpower = -0.2
+	local_resources = 0.2
+}
+
+Saishang_jiangnan = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_pan_turkic_propaganda
+	
+	local_manpower = -0.25
+	monthly_population = 0.1
+	local_resources = 0.1
+	global_building_slots_factor = 0.2
+}
+
+Yuanye_Oilfield = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_pan_turkic_propaganda
+	
+	local_resources = 0.1
+	global_building_slots_factor = 0.25
+}
+
+Yumen_Oilfield = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_pan_turkic_propaganda
+	
+	local_resources = 0.1
+	global_building_slots_factor = 0.25
+}
+
+Fertile_soil = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_pan_turkic_propaganda
+	
+	local_manpower = 0.15
+	monthly_population = 0.2
+	local_factories = 0.2
+	global_building_slots_factor = 0.35
+}
+
+Forgotten_land = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_pan_turkic_propaganda
+	
+	local_manpower = -0.25
+	local_resources = -0.1
+	global_building_slots_factor = -0.25
+}
+
+Desolate_land = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_pan_turkic_propaganda
+	
+	local_manpower = -0.5
+	local_resources = -0.25
+	global_building_slots_factor = -0.5
+}

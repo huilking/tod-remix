@@ -1,0 +1,155 @@
+﻿MNG_INF_GAD = {
+	name = "昌德卌四年型近卫步兵师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "昌德卌四年型近卫第%d步兵师"
+	ordered = {
+		1 = { "昌德卌四年型近卫步兵师%d" }
+	}
+}
+MNG_INF_01 = {
+	name = "昌德卌四年型甲种步兵师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "昌德卌四年型甲种第%d步兵师"
+	ordered = {
+		1 = { "昌德卌四年型甲种步兵师%d" }
+	}
+}
+MNG_INF_02 = {
+	name = "昌德卌四年型乙种步兵师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "昌德卌四年型乙种第%d步兵师"
+	ordered = {
+		1 = { "昌德卌四年型乙种步兵师%d" }
+	}
+}
+MNG_INF_SHE = {
+	name = "昌德卌四年型省军步兵师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "昌德卌四年型省军第%d步兵师"
+	ordered = {
+		1 = { "昌德卌四年型省军步兵师%d" }
+	}
+}
+MNG_INF_WEI = {
+	name = "昌德卌四年型卫戍步兵旅"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "昌德卌四年型卫戍第%d步兵旅"
+	ordered = {
+		1 = { "昌德卌四年型卫戍步兵旅%d" }
+	}
+}
+MNG_CAV_01 = {
+	name = "昌德卌四年型骑行步兵师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "cavalry" }
+	fallback_name = "昌德卌四年型第%d骑行步兵师"
+	ordered = {
+		1 = { "昌德卌四年型骑行步兵师%d" }
+	}
+}
+MNG_AOR_GAD = {
+	name = "昌德卌五年型近卫战车师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "medium_armor" }
+	fallback_name = "昌德卌五年型第%d近卫战车师"
+	ordered = {	
+		1 = { "昌德卌五年型近卫战车师%d" }
+	}
+}
+MNG_AOR_01 = {
+	name = "昌德卌四年型甲种战车师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "heavy_armor" }
+	fallback_name = "昌德卌四年型第%d甲种战车师"
+	ordered = {	
+		1 = { "昌德卌四年型第%d甲种战车师" }
+	}
+}
+MNG_AOR_02 = {
+	name = "昌德卌四年型乙种战车师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "light_armor" }
+	fallback_name = "昌德卌四年型第%d乙种战车师"
+	ordered = {	
+		1 = { "昌德卌四年型第%d乙种战车师" }
+	}
+}
+MNG_MOT_01 = {
+	name = "昌德卌八年实验机动步兵师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "motorized" }
+	fallback_name = "昌德卌八年第%d实验机动步兵师"
+	ordered = {	
+		1 = { "昌德卌八年第%d实验机动步兵师" }
+	}
+}
+MNG_MEC_01 = {
+	name = "Mechanized Unit"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "mechanized" }
+	fallback_name = "%d Jixiehua Bubingshi"
+	ordered = {
+		1 = { "%d Jixiehua Bubingshi" }						
+		2 = { "%d Jixiehua Bubingshi" }
+
+	}
+}
+MNG_ARM_01 = {
+	name = "Armored Unit"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	fallback_name = "%d Zhuangjia Shi"
+	ordered = {
+		1 = { "%d Zhuangjia Shi" }
+		2 = { "%d Zhuangjia Shi" }
+	}
+}
+MNG_PAR_01 = {
+	name = "Paratrooper Unit"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "paratrooper" }
+	fallback_name = "%d Sanbing Shi"
+
+	ordered = {
+		1 = { "%d Sanbing Shi" }
+		2 = { "%d Sanbing Shi" }
+	}
+}
+MNG_MAR_01 = {
+	name = "昌德卌五年型海军陆战队师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "marine" }
+	fallback_name = "昌德卌五年型海军陆战队师%d"
+	ordered = {
+		1 = { "昌德卌五年型海军陆战队师%d" }
+	}
+}
+MNG_MNT_01 = {
+	name = "昌德卌五年型山地步兵师"
+	for_countries = { MNG }
+	can_use = { always = yes }
+	division_types = { "mountaineers" }
+	fallback_name = "昌德卌五年型山地步兵师%d"
+	ordered = {	
+		1 = { "昌德卌五年型山地步兵师%d" }
+	}
+}
