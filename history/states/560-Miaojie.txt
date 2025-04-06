@@ -7,7 +7,7 @@ state={
 		add_core_of = FET
 		buildings = {
 			infrastructure = 2
-			122559 = {
+			12559 = {
 				naval_base = 1
 			}
 		}

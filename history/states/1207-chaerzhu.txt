@@ -2,22 +2,11 @@ state={
 	id=1207
 	name="STATE_1207"
 	provinces={
-		1632 4549 7924 9605 10742 
+		1632 4482 4549 5003 7924 9605 10414 10742 
 	}
-	history={
+	history = {
 		owner = TAJ
 		add_core_of = TAJ
-		victory_points = {
-			7924 2
-		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 3
-			air_base = 1
-
-		}
-		add_core_of = RUS
-
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
