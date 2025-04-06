@@ -65,14 +65,14 @@
   GOS_social_democrat_party:0 "大同党左派"
   GOS_social_democrat_party_long:0 "大同党左派"
 
-  GOS_consociationalism_party:0 "管学系议会派"
-  GOS_consociationalism_party_long:0 "管学系议会派"
+  GOS_consociationalism_party:0 "南直系议会派"
+  GOS_consociationalism_party_long:0 "南直系议会派"
 
   GOS_liberal_democracy_party:0 "大同党右派"
   GOS_liberal_democracy_party_long:0 "大同党右派"
 
-  GOS_conservative_democracy_party:0 "管学系商盟派"
-  GOS_conservative_democracy_party_long:0 "管学系商盟派"
+  GOS_conservative_democracy_party:0 "南直系商盟派"
+  GOS_conservative_democracy_party_long:0 "南直系商盟派"
 
   GOS_authoritarian_oligarchy_party:0 "大明兵部"
   GOS_authoritarian_oligarchy_party_long:0 "大明兵部"
@@ -98,7 +98,7 @@
 ### 决议 ###
   #debug
     GOS_decision_sdx:"少帝线"
-    GOS_decision_srx:"管学系线"
+    GOS_decision_srx:"南直系线"
     GOS_decision_smx:"商盟线"
     GOS_decision_dtdx:"大同党线"
     GOS_decision_jzfx:"军政府线"
@@ -119,19 +119,19 @@
 
   #内阁派系
     GOS_decision_add_dth_sl_20:"debug-大同会势力+20"	
-    GOS_decision_add_gxx_sl_20:"debug-管学系势力+20"
+    GOS_decision_add_gxx_sl_20:"debug-南直系势力+20"
     GOS_decision_add_jd_sl_20:"debug-军队势力+20"
 
     GOS_decision_jian_dth_sl_20:"debug-大同会势力-20"	
-    GOS_decision_jian_gxx_sl_20:"debug-管学系势力-20"
+    GOS_decision_jian_gxx_sl_20:"debug-南直系势力-20"
     GOS_decision_jian_jd_sl_20:"debug-军队势力-20"
 
     GOS_decision_add_dth_zcd_10:"debug-大同会支持度+10%"
-    GOS_decision_add_gxx_zcd_10:"debug-管学系支持度+10%"
+    GOS_decision_add_gxx_zcd_10:"debug-南直系支持度+10%"
     GOS_decision_add_jd_zcd_10:"debug-军队支持度+10%"
 
     GOS_decision_jian_dth_zcd_10:"debug-大同会支持度-10%"
-    GOS_decision_jian_gxx_zcd_10:"debug-管学系支持度-10%"
+    GOS_decision_jian_gxx_zcd_10:"debug-南直系支持度-10%"
     GOS_decision_jian_jd_zcd_10:"debug-军队支持度-10%"
 
     GOS_decision_tzngpx_jryd:"军人优待"
@@ -156,16 +156,16 @@
     GOS_decision_fn_js:"军事法案                         ([?GOS_VAR_ngpx_fn_ql_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
     GOS_decision_fn_dgxf:"帝国宪法                         ([?GOS_VAR_ngpx_fn_dg_dqzc|G0]/[?GOS_VAR_ngpx_zg_sl2|Y0])"
 
-    GOS_decision_fn_ql_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§R反对§!"
-    GOS_decision_fn_rq_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§Y中立§!"
-    GOS_decision_fn_jj_desc:"§0大同会§!对此法案的态度为§R反对§!\n§C管学系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
-    GOS_decision_fn_jy_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§R反对§!\n§W军队§!对此法案的态度为§Y中立§!"
-    GOS_decision_fn_cc_desc:"§0大同会§!对此法案的态度为§R反对§!\n§C管学系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
-    GOS_decision_fn_df_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§R反对§!\n§W军队§!对此法案的态度为§Y中立§!"
-    GOS_decision_fn_tz_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
-    GOS_decision_fn_my_desc:"§0大同会§!对此法案的态度为§Y中立§!\n§C管学系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
-    GOS_decision_fn_js_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C管学系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§R反对§!"
-    GOS_decision_fn_dgxf_desc:"§0大同会§!对此法案的态度为§Y中立§!\n§C管学系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_ql_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C南直系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§R反对§!"
+    GOS_decision_fn_rq_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C南直系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_jj_desc:"§0大同会§!对此法案的态度为§R反对§!\n§C南直系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_jy_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C南直系§!对此法案的态度为§R反对§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_cc_desc:"§0大同会§!对此法案的态度为§R反对§!\n§C南直系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_df_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C南直系§!对此法案的态度为§R反对§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_tz_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C南直系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_my_desc:"§0大同会§!对此法案的态度为§Y中立§!\n§C南直系§!对此法案的态度为§G支持§!\n§W军队§!对此法案的态度为§Y中立§!"
+    GOS_decision_fn_js_desc:"§0大同会§!对此法案的态度为§G支持§!\n§C南直系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§R反对§!"
+    GOS_decision_fn_dgxf_desc:"§0大同会§!对此法案的态度为§Y中立§!\n§C南直系§!对此法案的态度为§Y中立§!\n§W军队§!对此法案的态度为§Y中立§!"
   #军事决议
     GOS_decision_jsgg_1:"军事改革-第一阶段"
     GOS_decision_jsgg_2:"军事改革-第二阶段"
@@ -225,7 +225,7 @@
     GOS_idea_gengwucaihuangdeyubo_2_desc:0 "尽管距离庚午钱荒发生已经过去了四年，但七省地区的经济一直都处于停止状态。尽管江南建设发展公司以建设公共设施、兴建大型工程的方式大量吸纳失业人口，但庞大的政府开支也给七省财政带来了巨大的压力。"
 
     GOS_idea_datongdangzaixingdong:0 "人心思变"
-    GOS_idea_datongdangzaixingdong_desc:0 "管学系自1900年同大同党决裂以来，一直牢牢把控着江浙地区的话语权，在1901年武昌大同案爆发后更是成为了整个南方地区名义上的的第一大党，风头一时无两。但事实上，大同党崩溃后留下的是形形色色的小党派，各类思想都在街头巷尾传播，尤其是大同主义的阴魂久久不散。繁荣的盛世下，他们只能像老鼠一样蛰伏，但在这庚午钱荒和内战风波之下，谁都不知道会变成什么样。"
+    GOS_idea_datongdangzaixingdong_desc:0 "南直系自1900年同大同党决裂以来，一直牢牢把控着江浙地区的话语权，在1901年武昌大同案爆发后更是成为了整个南方地区名义上的的第一大党，风头一时无两。但事实上，大同党崩溃后留下的是形形色色的小党派，各类思想都在街头巷尾传播，尤其是大同主义的阴魂久久不散。繁荣的盛世下，他们只能像老鼠一样蛰伏，但在这庚午钱荒和内战风波之下，谁都不知道会变成什么样。"
 
     GOS_idea_shemingongdangdesaoluan:0 "社民工党的骚乱"
     GOS_idea_shemingongdangdesaoluan_desc:0 "长江七省作为大明帝国最发达地区之一，阶级矛盾也相当严重，尤其在庚午钱荒之后，工人运动此起彼伏，社民工党的思想一直在底层传播。虽然大明政府和各地总督的竭力镇压下，社民工党的活动趋于停滞，但所有人都知道，这七省就是社民工党运动的绝佳土壤，一有机会就会卷土重来。皇陵兵变所带来的权力真空给了社民工党行动的机会，各地工人运动又开始带来零星的骚乱。"
@@ -292,7 +292,7 @@
     GOS_focus_7:"民主大一统"
     GOS_focus_8:"虚位天子"
 
-  #管学系
+  #南直系
     GOS_focus_86:"议会凯旋"
     GOS_focus_87:"商盟支持"
     GOS_focus_88:"安定民心"
@@ -395,7 +395,7 @@
     GOS_focus_59:"天空霸主"
 
  #陆军
-  #管学系
+  #南直系
     GOS_focus_61:"南京军事会议"
     GOS_focus_62:"省军联合"
     GOS_focus_63:"强化通讯体系"
@@ -519,17 +519,17 @@
     GOS_tooltip_var_wjd_xiaoyu_75:"§Y危机度§!小于§G75§!"
   #内阁派系
     GOS_tooltip_var_jd_zcd_add_5:"§L军队§!§G支持度§!增加§G5%§!"
-    GOS_tooltip_var_gxx_zcd_add_5:"§C管学系§!§G支持度§!增加§G5%§!"
+    GOS_tooltip_var_gxx_zcd_add_5:"§C南直系§!§G支持度§!增加§G5%§!"
     GOS_tooltip_var_dth_zcd_add_5:"§0大同会§!§G支持度§!增加§G5%§!"
 
 
     GOS_tooltip_var_jd_sl_jian_5:"§L军队§!§Y势力§!减少§G5§!"
-    GOS_tooltip_var_gxx_sl_jian_5:"§C管学系§!§Y势力§!减少§G5§!"
+    GOS_tooltip_var_gxx_sl_jian_5:"§C南直系§!§Y势力§!减少§G5§!"
     GOS_tooltip_var_dth_sl_jian_5:"§0大同会§!§Y势力§!减少§G5§!"
 
 
     GOS_tooltip_var_jd_sl_add_5:"§L军队§!§Y势力§!增加§R5§!"
-    GOS_tooltip_var_gxx_sl_add_5:"§C管学系§!§Y势力§!增加§R5§!"
+    GOS_tooltip_var_gxx_sl_add_5:"§C南直系§!§Y势力§!增加§R5§!"
     GOS_tooltip_var_dth_sl_add_5:"§0大同会§!§Y势力§!增加§R5§!"
 
     GOS_tooltip_var_tzqw_dayu_75:"§Y天子权威§!大于§G75%§!"
@@ -539,7 +539,7 @@
 
     GOS_tooltip_decision_fn_rq:"§0大同会§!§Y势力§!每周增加§R0.5§!" 
     GOS_tooltip_decision_fn_jj:"§0大同会§!不会再因为§Y战时经济§!与§Y总动员§!而减少§G支持度§!" 
-    GOS_tooltip_decision_fn_cc:"§C管学系§!不会再因为§Y经济危机度§!而减少§G支持度§!\n§C管学系§!§Y势力§!每周增加§R0.5§!"
+    GOS_tooltip_decision_fn_cc:"§C南直系§!不会再因为§Y经济危机度§!而减少§G支持度§!\n§C南直系§!§Y势力§!每周增加§R0.5§!"
     GOS_tooltip_decision_fn_js:"§L军队§!不会再每周固定减少§R0.5§!§G支持度§!"
 
  #国策提示
@@ -594,11 +594,11 @@
     GOS_traits_nfdcf:"南方大财阀"
     GOS_traits_gt:"寡头"
     GOS_traits_jbqyj:"进步企业家"
-    GOS_traits_srxyz:"管学系议长"
+    GOS_traits_srxyz:"南直系议长"
     GOS_traits_nhzzz:"农会组织者"
     GOS_traits_dtdpt:"大同党的叛徒"
     GOS_traits_cf:"财阀"
-    GOS_traits_ytfy:"管学系话事人"
+    GOS_traits_ytfy:"南直系话事人"
     GOS_traits_dtdhsr:"大同党话事人"
     GOS_traits_jjbs:"经济博士"
     GOS_traits_jzfdyr:"军政府代言人"
@@ -680,11 +680,11 @@
 ### GUI ###
  #天子内阁派系
   GOS_gui_tzngpx_dth_name_text:"大同会"
-  GOS_gui_tzngpx_gxx_name_text:"管学系"
+  GOS_gui_tzngpx_gxx_name_text:"南直系"
   GOS_gui_tzngpx_jd_name_text:"军队"
 
   GOS_gui_tzngpx_dth_tooltip_text:"大同会简介"
-  GOS_gui_tzngpx_gxx_tooltip_text:"管学系简介"
+  GOS_gui_tzngpx_gxx_tooltip_text:"南直系简介"
   GOS_gui_tzngpx_jd_tooltip_text:"军队简介"
 
   GOS_gui_tzngpx_sl_header_text:"势力"
@@ -711,9 +711,9 @@
     GET_GOS_ngjsbd_jj_name_txt_1:"处于§Y战时经济§!或§Y总动员§!状态：§0大同会§!§G支持度§!每周减少§R0.3%§!"
     GET_GOS_ngjsbd_jj_name_txt_2:""
 
-    GET_GOS_ngjsbd_cc_name_txt_1:"§Y经济危机度§!大于§R50§!：§C管学系§!§G支持度§!每周减少§R0.3%§!"
+    GET_GOS_ngjsbd_cc_name_txt_1:"§Y经济危机度§!大于§R50§!：§C南直系§!§G支持度§!每周减少§R0.3%§!"
     GET_GOS_ngjsbd_cc_name_txt_2:""
-    GET_GOS_ngjsbd_cc_name_txt_3:"已通过§Y财产法案§!：§C管学系§!§Y势力§!每周增加§R0.5§!"
+    GET_GOS_ngjsbd_cc_name_txt_3:"已通过§Y财产法案§!：§C南直系§!§Y势力§!每周增加§R0.5§!"
 
     GET_GOS_ngjsbd_rq_name_txt_1:""
     GET_GOS_ngjsbd_rq_name_txt_2:"已通过§Y人权法案§!：§0大同会§!§Y势力§!每周增加§R0.5§!"
