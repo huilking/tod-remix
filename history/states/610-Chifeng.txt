@@ -1,26 +1,18 @@
-
 state={
 	id=610
 	name="STATE_610"
-	resources = {
-		Steel = 22
+	resources={
+		steel=22.000
 	}
-	history={
+	history = {
 		owner = MNG
 		add_core_of = MNG
-		buildings = {
-			infrastructure = 1
-
-		}
-		victory_points = {
-			11855 1
-		}
 	}
-
 	provinces={
-		934 972 3814 3828 3881 6837 6852 6898 6988 7575 7633 9873 9927 10331 10499 11855 11886 13516 13517 13518 13519 
+		972 3828 3881 6852 6988 7575 7633 9873 9927 10331 10499 11855 13516 13517 13518 13519 
 	}
 	manpower=2151855
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

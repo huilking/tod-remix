@@ -6,7 +6,6 @@ state={
 		steel=20.000
 		aluminium=6.000
 	}
-                            state_category = city
 	history={
 		owner = GER
 		victory_points = {

@@ -1,0 +1,15 @@
+state={
+	id=1259
+	name="STATE_1259"
+	state_category = rural
+	provinces={
+		4523 7541 7641 10348 12383 12454 13207 
+	}
+	history = {
+		owner = KYR
+		add_core_of = KYR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

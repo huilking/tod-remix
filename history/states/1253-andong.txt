@@ -1,0 +1,15 @@
+state={
+	id=1253
+	name="STATE_1253"
+	history = {
+		owner = MNG
+		add_core_of = MNG
+	}
+	provinces={
+		945 3949 6981 9848 9854 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=four
+}

@@ -1,23 +1,15 @@
 state={
 	id=715
 	name="STATE_715"
-
-	history={
+	history = {
 		owner = MNG
 		add_core_of = MNG
-		buildings = {
-			infrastructure = 1
-
-		}
-		victory_points = {
-			7812 1 
-		}
 	}
-
 	provinces={
-		1508 1558 1627 3978 4561 7812 10426 10429 12337 12469 
+		1645 4506 4561 7582 10379 
 	}
 	manpower=477812
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }
