@@ -1,21 +1,12 @@
-
 state={
 	id=1161
 	name="STATE_1161"
-
-	history={
-		owner = KYR
-		add_core_of = KYR
-		buildings = {
-			infrastructure = 0
-
-		}
-		add_core_of = RUS
-
-	}
-
 	provinces={
-		4300 4578 4581 4636 4638 7243 7486 7597 7600 7657 10353 12329 
+		4300 4578 4581 4636 4638 7243 7486 7597 7600 7657 10353 12329 12471 
+	}
+	history={
+		owner = KAZ
+		add_core_of = KAZ
 	}
 	manpower=573810
 	buildings_max_level_factor=1.000
