@@ -1,27 +1,15 @@
-
-state = {
-	id = 617
-	name = "STATE_617"
-	
-	history = {
+state={
+	id=617
+	name="STATE_617"
+	provinces={
+		1703 2074 4682 4770 7702 7792 10545 10614 13486 13510 13487 13488 13489 13490 13491 
+	}
+	history={
 		owner = MNG
 		add_core_of = MNG
-		victory_points = {
-			13488 5
-		}
-        victory_points = {
-			7702 3
-		}
-		buildings = {
-		    synthetic_refinery = 1
-			infrastructure = 2
-		}
 	}
-
-	provinces = {
-		1703 4682 5016 7702 13486 13487 13488 13489 13491 
-	}
-	manpower = 629590
-	buildings_max_level_factor = 1.000
-	state_category = town
+	manpower=629590
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

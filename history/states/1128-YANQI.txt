@@ -5,18 +5,7 @@ state = {
 	history = {
 		owner = MNG
 		add_core_of = MNG
-		victory_points = {
-			5736  1 
-		}
-		victory_points = {
-			10545  3
-		}
-		victory_points = {
-			10614  1 
-		}
-		victory_points = {
-			7792  1 
-		}
+
         buildings = {
 			synthetic_refinery = 1
 			infrastructure = 1
@@ -26,7 +15,7 @@ state = {
 		}
 	}
 	provinces = {
-		2074 5736 7792 10545 10614 12524 13490 
+		4947 5736 7732 12524
 	}
 	manpower = 332130
 	buildings_max_level_factor = 1.000
