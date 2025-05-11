@@ -10,10 +10,6 @@ state={
 		owner = CHL
 		buildings = {
 			infrastructure = 0
-			10953 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = CHL

@@ -11,8 +11,8 @@ set_politics = {
 
 set_popularities = {
 	conservative_democracy = 42
-	liberal_democracy = 54
-	radicalism = 4
+	liberal_democracy = 58
+
 }
 
 create_country_leader = {

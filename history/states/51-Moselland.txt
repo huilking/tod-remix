@@ -19,23 +19,6 @@ state={
 			arms_factory = 4
 			industrial_complex = 5
 			air_base = 3
-			3558 = {
-				bunker = 10
-
-			}
-			11547 = {
-				bunker = 10
-
-			}
-			3423 = {
-				bunker = 10
-
-			}
-			11494 = {
-				bunker = 10
-
-			}
-
 		}
 		add_core_of = FRA
 		1939.1.1 = {

@@ -50,8 +50,8 @@ if = {
 		basic_heavy_battery = 1
 		basic_torpedo = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
+		#basic_secondary_battery = 1
+		#improved_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
@@ -87,10 +87,10 @@ set_politics = {
 }
 
 set_popularities = {
-	authoritarian_oligarchy = 40
+	authoritarian_oligarchy = 50
 	conservative_democracy = 25
 	liberal_democracy = 25
-	reformism = 10
+
 }
 
 add_ideas = {

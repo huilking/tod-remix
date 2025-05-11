@@ -1,5 +1,5 @@
 #Important to put LOWEST first
-GRE_crisis_level_down = {
+#GRE_crisis_level_down = {
 	if = {
 		limit = { has_idea = GRE_aftermath_of_crisis_4 }
 		custom_effect_tooltip = GRE_crisis_level_down_tt

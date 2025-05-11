@@ -45,7 +45,7 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 	radio = 1
 	marines = 1
-	mountaineers = 1
+	#mountaineers = 1
 }
 
 if = {
@@ -86,8 +86,8 @@ if = {
 		basic_torpedo = 1
 		sonar = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
+		##basic_secondary_battery = 1
+		##improved_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
@@ -468,8 +468,12 @@ create_navy_leader = {# 约翰·S·麦凯恩
 	id = 994
 }
 
-country_event = { id = frl.2 days = 80 } #噔噔咚
-country_event = { id = frl.4 days = 180 } #不信任投票
+country_event = { 
+	id = frl.2 
+	days = 80 } #噔噔咚
+country_event = { 
+	id = frl.4 
+	days = 180 } #不信任投票
 
 
 ### 战舰型号 ###
@@ -570,7 +574,7 @@ if = {
 	create_equipment_variant = {
 		name = "珊瑚级"
 		type = ship_hull_submarine_1
-		name_group = FRL_SS_HISTORICAL
+		#name_group = FRL_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -582,7 +586,7 @@ if = {
 	create_equipment_variant = {
 		name = "A级"
 		type = ship_hull_light_1
-		name_group = FRL_DD_HISTORICAL
+		#name_group = FRL_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
@@ -599,7 +603,7 @@ if = {
 	create_equipment_variant = {
 		name = "B级"
 		type = ship_hull_light_2
-		name_group = FRL_DD_HISTORICAL
+		#name_group = FRL_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
@@ -616,7 +620,7 @@ if = {
 	create_equipment_variant = {
 		name = "贝尔坦级"
 		type = ship_hull_cruiser_1
-		name_group = FRL_CL_HISTORICAL
+		#name_group = FRL_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -635,7 +639,7 @@ if = {
 	create_equipment_variant = {
 		name = "比克罗西级"
 		type = ship_hull_cruiser_1
-		name_group = FRL_CA_HISTORICAL
+		#name_group = FRL_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_medium_battery_2
@@ -654,7 +658,7 @@ if = {
 		create_equipment_variant = {
 		name = "苏级"
 		type = ship_hull_heavy_1
-		name_group = FRL_BC_HISTORICAL
+		#name_group = FRL_BC_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -674,7 +678,7 @@ if = {
 	create_equipment_variant = {
 		name = "乔克托级"
 		type = ship_hull_heavy_1
-		name_group = FRL_BB_HISTORICAL
+		#name_group = FRL_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -692,22 +696,22 @@ if = {
 		obsolete = yes
 	}
 	# 航空母舰 #
-	create_equipment_variant = {
-		name = "团结级"
-		type = ship_hull_carrier_1
-		name_group = FRL_CV_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_deck_slot_1 = ship_deck_space
-			fixed_ship_deck_slot_2 = ship_deck_space
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = empty
-			mid_1_custom_slot = ship_deck_space
-		}
-		obsolete = yes
-	}
+	#create_equipment_variant = {
+		#name = "团结级"
+		#type = ship_hull_carrier_1
+		#name_group = FRL_CV_HISTORICAL
+		#parent_version = 0
+		#modules = {
+			#fixed_ship_deck_slot_1 = ship_deck_space
+			#fixed_ship_deck_slot_2 = ship_deck_space
+			#fixed_ship_anti_air_slot = ship_anti_air_1
+			#fixed_ship_radar_slot = empty
+			#fixed_ship_engine_slot = heavy_ship_engine_1
+			#fixed_ship_secondaries_slot = empty
+			#mid_1_custom_slot = ship_deck_space
+		#}
+		#obsolete = yes
+	#}
 }
 if = {
 	limit = {

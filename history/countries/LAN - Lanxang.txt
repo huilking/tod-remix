@@ -10,8 +10,8 @@ set_politics = {
 }	
 
 set_popularities = {
-	authoritarian_oligarchy = 75
-	reformism = 25
+	authoritarian_oligarchy = 100
+
 }
 
 create_country_leader = {
@@ -32,7 +32,7 @@ create_country_leader = {
 
 add_ideas = {
 	AthDem_type
-	LibMrk type
+	LibMrk_type
 	LAN_bangkok_edict
 	LAN_king_sisavang_vatthana
 	LAN_the_influence_of_the_labor_party

@@ -3,21 +3,19 @@ capital = 546
 oob = "oob"
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = Portrait_MEA_SunDianying.tga
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	national_corporatism = 0
-	despotism = 44
+	national_corporatism = 52
+	
 	authoritarian_oligarchy = 22
 	conservative_democracy = 26
 	liberal_democracy = 0
-	reformism = 8
-	socialism = 0
-	radicalism = 0
+
 }
 
 create_country_leader = {

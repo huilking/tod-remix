@@ -125,9 +125,9 @@ if = {
 		basic_torpedo = 1
 		sonar = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1`
+		#basic_secondary_battery = 1`
 		mtg_transport = 1
-		improved_secondary_battery = 1
+		#improved_secondary_battery = 1
 		improved_airplane_launcher = 1
 	}
 }
@@ -334,7 +334,7 @@ if = {
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_1
 				fixed_ship_secondaries_slot = ship_secondaries_1
-				fixed_ship_armor_slot = ship_armor_cruiser_
+				fixed_ship_armor_slot = ship_armor_cruiser_1
 				front_1_custom_slot = empty
 				mid_1_custom_slot = ship_torpedo_1
 				mid_2_custom_slot = ship_anti_air_1

@@ -490,7 +490,8 @@ if = {
 	### 驱逐
 
 	create_equipment_variant = {
-		name = "Curtatone Class" 		
+		name = "Curtatone Class" 
+		type = ship_hull_light_1
 		name_group = ITA_DD_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -613,8 +614,8 @@ create_equipment_variant = {
     name_group = ITA_CV_HISTORICAL
     parent_version = 0
     modules = {
-		fixed_ship_deck_slot_1 = ship_deck_space
-		fixed_ship_deck_slot_2 = ship_armor_carrier_deck
+		#fixed_ship_deck_slot_1 = ship_deck_space
+		#fixed_ship_deck_slot_2 = ship_armor_carrier_deck
 		fixed_ship_anti_air_slot = ship_anti_air_1
 		fixed_ship_radar_slot = empty
 		fixed_ship_engine_slot = carrier_ship_engine_1

@@ -117,7 +117,7 @@ if = {
 		puppet = FEA
 		puppet = FCG
 		puppet = JOF
-		puppet = AOF
+		puppet = SPA
 		puppet = IOF
 		puppet = MOR
 	}

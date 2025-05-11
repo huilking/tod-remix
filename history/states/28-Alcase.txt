@@ -22,18 +22,6 @@ state={
 			arms_factory = 4
 			anti_air_building = 5
 			air_base = 7
-			678 = {
-				bunker = 10
-
-			}
-			6529 = {
-				bunker = 10
-
-			}
-			9503 = {
-				bunker = 10
-
-			}
 
 		}
 		add_core_of = FRA

@@ -4,18 +4,18 @@ spriteTypes = {
 
 	### 大明（MNG） ###
 	### 大明步兵装备
-	SpriteType = {
-		name = "GFX_MNG_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/MNG/MNG_infantry_weapons.dds"
-	}
-	SpriteType = {
-		name = "GFX_MNG_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/MNG/MNG_infantry_weapons1.dds"
-	}
-	SpriteType = {
-		name = "GFX_MNG_improved_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/MNG/MNG_improved_infantry_weapons.dds"
-	}
+	#SpriteType = {
+	#	name = "GFX_MNG_infantry_weapons_medium"
+	#	texturefile = "gfx/interface/technologies/MNG/MNG_infantry_weapons.dds"
+	#}
+	#SpriteType = {
+	#	name = "GFX_MNG_infantry_weapons1_medium"
+	#	texturefile = "gfx/interface/technologies/MNG/MNG_infantry_weapons1.dds"
+	#}
+	#SpriteType = {
+	#	name = "GFX_MNG_improved_infantry_weapons_medium"
+	#	texturefile = "gfx/interface/technologies/MNG/MNG_improved_infantry_weapons.dds"
+	#}
 	SpriteType = {
 		name = "GFX_MNG_advanced_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/MNG/MNG_advanced_infantry_weapons.dds"

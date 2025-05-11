@@ -16,7 +16,7 @@ recruit_character = BRM_Mibayala
 
 add_ideas = {
 	AthDem_type
-	LibMrk type
+	LibMrk_type
 
 }
 

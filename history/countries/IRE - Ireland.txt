@@ -74,8 +74,8 @@ if = {
 		basic_torpedo = 1
 		sonar = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
+		#basic_secondary_battery = 1
+		#improved_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
@@ -92,13 +92,11 @@ set_politics = {
 
 set_popularities = {
 	national_corporatism = 0
-	despotism = 10
+
 	authoritarian_oligarchy = 60
 	conservative_democracy = 20
-	liberal_democracy = 0
-	reformism = 0
-	socialism = 10
-	radicalism = 0
+	liberal_democracy = 20
+
 }
 
 create_country_leader = {

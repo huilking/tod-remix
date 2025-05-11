@@ -48,7 +48,7 @@ create_country_leader = {
 
 add_ideas = {
 	TotRvv_type
-	LibMrk type
+	LibMrk_type
 	KHM_the_aftermath_of_the_gengwu_financial_crisis
 	KHM_our_struggle
 	KHM_king_norodom_sutharot

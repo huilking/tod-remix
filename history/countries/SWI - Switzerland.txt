@@ -11,13 +11,10 @@ set_politics = {
 
 set_popularities = {
 	national_corporatism = 0
-	despotism = 0
+
 	authoritarian_oligarchy = 0
 	conservative_democracy = 46
-	liberal_democracy = 34
-	reformism = 20
-	socialism = 0
-	radicalism = 0
+	liberal_democracy = 54
 }
 
 create_country_leader = {

@@ -1,5 +1,4 @@
-capital = 306
-
+ #capital = 306
 oob = "oob"
 
 set_politics = {
