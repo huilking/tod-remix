@@ -17,16 +17,15 @@ SRC_WIN_GPS = {
 	hidden_effect = {
 		SRC = {
 			add_state_core = 610 #昭乌达
-
 			add_state_core = 745 #辽南
-
+			
 			add_state_core = 846 #辽北
 			add_state_core = 1218 #通辽
 			add_state_core = 715 #科尔沁
 			add_state_core = 328  #长春
 			add_state_core = 1126 #雅鲁
 			add_state_core = 714 #龙江
-
+			
 			#set_cosmetic_tag = CSA_ACW
 
 			add_ideas = {
@@ -125,7 +124,12 @@ MNG_release_GPS = {#明释放GPS
 			add_state_core = 716 #辽西
 			add_state_core = 846 #辽北
 			add_state_core = 745 #辽南
-
+			add_state_core = 1257
+			add_state_core = 1256
+			add_state_core = 759
+			add_state_core = 1255
+			add_state_core = 1253
+			add_state_core = 1254
 
 
 			#set_cosmetic_tag = CSA_ACW
@@ -443,7 +447,6 @@ MNG_release_XIN = {#MNG释放XIN西南军
 MNG_release_MOB = {#MNG释放MOB蒙古地方司
 	hidden_effect = {
 		MOB = {
-			add_state_core = 1208
 			add_state_core = 1120
 			add_state_core = 654
 			add_state_core = 1121
